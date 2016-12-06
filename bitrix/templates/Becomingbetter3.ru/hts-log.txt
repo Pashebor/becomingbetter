@@ -1,0 +1,285 @@
+HTTrack3.48-22+htsswf+htsjava launched on Mon, 19 Sep 2016 13:01:42 at http://becomingbetter.ru +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv
+(winhttrack -qwC2%P%h%s%uN0%I0H0%kf2A100000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "ru, en, *" http://becomingbetter.ru -O1 "C:\Мои Web Сайты\Becomingbetter.ru" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:01:49	Warning: 	Note: due to becomingbetter.ru remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+13:33:31	Error: 	"Method Not Allowed" (405) at link becomingbetter.ru/xmlrpc.php (from becomingbetter.ru/)
+13:33:31	Error: 	"Not Found" (404) at link becomingbetter.ru/wp-content/themes/the-seo/images/apple-touch-icon.png (from becomingbetter.ru/)
+13:33:31	Warning: 	Retry after error -4 (Interrupted transfer) at link https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js (from becomingbetter.ru/)
+13:49:05	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/ultimate.min.css?ver=3.16.6 (from becomingbetter.ru/)
+13:53:45	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/suppamenu2/css/header4.css?ver=250 (from becomingbetter.ru/)
+13:53:52	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.6.8 (from becomingbetter.ru/)
+13:56:02	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate.min.js?ver=3.16.6 (from becomingbetter.ru/)
+13:56:02	Error: 	"Not Found" (404) at link becomingbetter.ru/wp-content/themes/the-seo/images/clipart6.jpg (from becomingbetter.ru/)
+13:56:02	Error: 	"Not Found" (404) at link becomingbetter.ru/wp-content/themes/the-seo/images/px.gif (from becomingbetter.ru/)
+13:56:02	Error: 	"Not Found" (404) at link becomingbetter.ru/wp-content/themes/the-seo/images/networkbg.png (from becomingbetter.ru/)
+13:56:02	Error: 	"Not Found" (404) at link becomingbetter.ru/wp-content/themes/the-seo/images/smbgrs.png (from becomingbetter.ru/)
+14:20:18	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/blog-masonry/ (from becomingbetter.ru/)
+14:20:18	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/blog-with-sidebar/ (from becomingbetter.ru/)
+14:27:21	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/service/pay-per-click/ (from becomingbetter.ru/)
+14:28:11	Warning: 	Moved Permanently for becomingbetter.ru/seolight/portfolio-full-width/
+14:28:11	Warning: 	File has moved from becomingbetter.ru/seolight/portfolio-full-width/ to http://becomingbetter.ru/portfolio-full-width/
+14:28:11	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/2015/11/ben3.jpg (from becomingbetter.ru/)
+14:33:39	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70 (from becomingbetter.ru/)
+14:33:41	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/js_composer/assets/js/dist/vc_grid.min.js?ver=4.12 (from becomingbetter.ru/)
+14:33:41	Error: 	Can not remove old file /ajax/libs/webfont/1.5.3/webfont.js
+14:33:41	Error: 	"Not Found" (404) at link becomingbetter.ru/wp-content/themes/the-seo/the-seo/fonts/glyphicons-halflings-regular.woff2 (from becomingbetter.ru/wp-content/themes/the-seo/the-seo/css/bootstrap.min.css?ver=4.5.4)
+14:33:41	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/themes/the-seo/the-seo/images/benefits-dark.jpg (from becomingbetter.ru/wp-content/themes/the-seo/the-seo/css/dynamic.css?ver=4.5.4)
+14:33:41	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf?5510888 (from becomingbetter.ru/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.2.5.3)
+14:33:44	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png (from becomingbetter.ru/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.2.5.3)
+14:33:44	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/revslider/public/assets/assets/coloredbg.png (from becomingbetter.ru/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.2.5.3)
+14:33:44	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.svg (from becomingbetter.ru/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.6.4)
+14:33:45	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/plugins/js_composer/assets/images/icons/arrow.png (from becomingbetter.ru/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.12)
+14:33:45	Warning: 	Retry after error -4 (Connect Error) at link becomingbetter.ru/wp-content/plugins/js_composer/assets/images/icons/asterisk.png (from becomingbetter.ru/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.12)
+14:33:48	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/js_composer/assets/images/icons/balloon.png (from becomingbetter.ru/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.12)
+14:33:49	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/js_composer/assets/images/icons/binocular.png (from becomingbetter.ru/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.12)
+14:33:49	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.svg?-9hbgac (from becomingbetter.ru/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.12)
+14:33:51	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/smile_fonts/Defaults/Defaults.woff?rfa9z8 (from becomingbetter.ru/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=4.5.4)
+14:33:53	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/smile_fonts/Defaults/Defaults.svg?rfa9z8 (from becomingbetter.ru/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=4.5.4)
+14:34:02	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.eot?w8drmx (from becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.css?ver=4.5.4)
+14:34:06	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.ttf?w8drmx (from becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.css?ver=4.5.4)
+14:34:44	Warning: 	Retry after error -4 (Connect Error) at link becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.woff?w8drmx (from becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.css?ver=4.5.4)
+14:37:21	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.svg?w8drmx (from becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.css?ver=4.5.4)
+14:38:19	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/ultimate.min.css?ver=3.16.6 (from becomingbetter.ru/)
+14:42:40	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/plugins/suppamenu/standard/css/alico/fonts/alico.woff?w8drmx (from becomingbetter.ru/wp-content/plugins/suppamenu/standard/css/alico/style.css?ver=250)
+14:43:35	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/plugins/suppamenu/standard/css/alico/fonts/alico.svg?w8drmx (from becomingbetter.ru/wp-content/plugins/suppamenu/standard/css/alico/style.css?ver=250)
+14:46:13	Error: 	"Not Found" (404) at link becomingbetter.ru/TweenLite.js (from becomingbetter.ru/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.2.5.3)
+14:46:13	Error: 	"Not Found" (404) at link becomingbetter.ru/Version/ (from becomingbetter.ru/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.2.5.3)
+14:46:13	Error: 	"Not Found" (404) at link becomingbetter.ru/themepunch.revolution.min.js (from becomingbetter.ru/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.2.5.3)
+14:46:13	Error: 	"Not Found" (404) at link becomingbetter.ru/jquery.themepunch.revolution.min.js (from becomingbetter.ru/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.2.5.3)
+14:46:13	Error: 	"Not Found" (404) at link becomingbetter.ru/jquery.themepunch.revolution.js (from becomingbetter.ru/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.2.5.3)
+14:46:41	Warning: 	Moved Permanently for becomingbetter.ru/?p=2000
+14:46:41	Warning: 	File has moved from becomingbetter.ru/?p=2000 to http://becomingbetter.ru/home-seo-agency/header-2-demo/
+14:46:43	Warning: 	Moved Permanently for becomingbetter.ru/?p=2002
+14:46:43	Warning: 	File has moved from becomingbetter.ru/?p=2002 to http://becomingbetter.ru/home-seo-agency/header-3-demo/
+14:46:43	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/revslider/slider1/cart.png (from becomingbetter.ru/home-seo-agency/header-3-demo/)
+14:47:03	Warning: 	Moved Permanently for becomingbetter.ru/?p=2004
+14:47:03	Warning: 	File has moved from becomingbetter.ru/?p=2004 to http://becomingbetter.ru/home-seo-agency/header-4-short/
+14:47:30	Warning: 	Moved Permanently for becomingbetter.ru/?p=2249
+14:47:30	Warning: 	File has moved from becomingbetter.ru/?p=2249 to http://becomingbetter.ru/home-seo-agency/header-5-with-contact-form/
+14:47:30	Warning: 	Moved Permanently for becomingbetter.ru/?p=2032
+14:47:30	Warning: 	File has moved from becomingbetter.ru/?p=2032 to http://becomingbetter.ru/boxed-promo-page/
+14:47:30	Warning: 	Moved Permanently for becomingbetter.ru/?p=2048
+14:47:30	Warning: 	File has moved from becomingbetter.ru/?p=2048 to http://becomingbetter.ru/17-content-blocks-examples-1/
+14:47:57	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/member3.jpg (from becomingbetter.ru/17-content-blocks-examples-1/)
+14:55:46	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/plugins/js_composer/assets/lib/bower/nivoslider/nivo-slider.min.css?ver=4.12 (from becomingbetter.ru/17-content-blocks-examples-1/)
+14:56:06	Warning: 	Moved Permanently for becomingbetter.ru/?p=2042
+14:56:06	Warning: 	File has moved from becomingbetter.ru/?p=2042 to http://becomingbetter.ru/7-content-blocks-examples-2/
+14:56:06	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/benefits-dark.jpg (from becomingbetter.ru/7-content-blocks-examples-2/)
+14:56:06	Warning: 	Moved Permanently for becomingbetter.ru/?p=2040
+14:56:06	Warning: 	File has moved from becomingbetter.ru/?p=2040 to http://becomingbetter.ru/8-content-blocks-examples-3/
+14:56:06	Warning: 	Moved Permanently for becomingbetter.ru/?p=2029
+14:56:06	Warning: 	File has moved from becomingbetter.ru/?p=2029 to http://becomingbetter.ru/coming-soon/
+14:56:06	Warning: 	Moved Permanently for becomingbetter.ru/?p=1956
+14:56:06	Warning: 	File has moved from becomingbetter.ru/?p=1956 to http://becomingbetter.ru/iconboxes/
+14:56:06	Warning: 	Moved Permanently for becomingbetter.ru/?p=1958
+14:56:06	Warning: 	File has moved from becomingbetter.ru/?p=1958 to http://becomingbetter.ru/inputs-buttons/
+14:56:06	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/js_composer/assets/css/lib/vc-open-iconic/vc_openiconic.min.css?ver=4.12 (from becomingbetter.ru/inputs-buttons/)
+14:56:07	Warning: 	Moved Permanently for becomingbetter.ru/?p=1944
+14:56:07	Warning: 	File has moved from becomingbetter.ru/?p=1944 to http://becomingbetter.ru/typography/
+14:58:36	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/category/blog/posts/ (from becomingbetter.ru/category/blog/)
+14:59:49	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/negativespace1-26-150x150.jpg (from becomingbetter.ru/category/blog/)
+15:06:35	Warning: 	Moved Permanently for becomingbetter.ru/?p=2053
+15:06:35	Warning: 	File has moved from becomingbetter.ru/?p=2053 to http://becomingbetter.ru/blog-1-column-demo/
+15:06:35	Error: 	"Not Found" (404) at link becomingbetter.ru/blog-1-column-demo/_id=sl_category_posts_cat=blog_pt=post_ppp=10/page/2/ (from becomingbetter.ru/blog-1-column-demo/)
+15:06:35	Warning: 	Moved Permanently for becomingbetter.ru/?p=2055
+15:06:35	Warning: 	File has moved from becomingbetter.ru/?p=2055 to http://becomingbetter.ru/blog-by-composer/
+15:07:23	Warning: 	Moved Permanently for becomingbetter.ru/?p=2059
+15:07:23	Warning: 	File has moved from becomingbetter.ru/?p=2059 to http://becomingbetter.ru/blog-with-2-sidebars/
+15:08:35	Error: 	"Not Found" (404) at link becomingbetter.ru/blog-with-2-sidebars/_id=sl_category_posts_cat=blog_pt=post_ppp=10/page/2/ (from becomingbetter.ru/blog-with-2-sidebars/)
+15:08:37	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/2016/06/ (from becomingbetter.ru/blog-with-2-sidebars/)
+15:12:25	Warning: 	Moved Permanently for becomingbetter.ru/?p=2037
+15:12:25	Warning: 	File has moved from becomingbetter.ru/?p=2037 to http://becomingbetter.ru/about/
+15:12:25	Warning: 	Moved Permanently for becomingbetter.ru/?p=1952
+15:12:25	Warning: 	File has moved from becomingbetter.ru/?p=1952 to http://becomingbetter.ru/price-table/
+15:12:25	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2Fprice-table%2F&format=xml (from becomingbetter.ru/price-table/)
+15:12:36	Warning: 	Moved Permanently for becomingbetter.ru/?p=1919
+15:12:36	Warning: 	File has moved from becomingbetter.ru/?p=1919 to http://becomingbetter.ru/service/search-engine-optimization/
+15:12:41	Warning: 	Moved Permanently for becomingbetter.ru/?p=1866
+15:12:41	Warning: 	File has moved from becomingbetter.ru/?p=1866 to http://becomingbetter.ru/testimonial/testimonial-4/
+15:13:35	Warning: 	Moved Permanently for becomingbetter.ru/?p=1950
+15:13:35	Warning: 	File has moved from becomingbetter.ru/?p=1950 to http://becomingbetter.ru/team/
+15:13:37	Warning: 	Moved Permanently for becomingbetter.ru/?p=1909
+15:13:37	Warning: 	File has moved from becomingbetter.ru/?p=1909 to http://becomingbetter.ru/teammate/david-black/
+15:13:37	Warning: 	Moved Permanently for becomingbetter.ru/?p=1954
+15:13:37	Warning: 	File has moved from becomingbetter.ru/?p=1954 to http://becomingbetter.ru/portfolio-full-width/
+15:13:37	Warning: 	Moved Permanently for becomingbetter.ru/?p=1900
+15:13:37	Warning: 	File has moved from becomingbetter.ru/?p=1900 to http://becomingbetter.ru/portfolio/the-gym/
+15:13:37	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/finess1.jpg (from becomingbetter.ru/portfolio/the-gym/)
+15:14:45	Warning: 	Moved Permanently for becomingbetter.ru/?p=2005
+15:14:45	Warning: 	File has moved from becomingbetter.ru/?p=2005 to http://becomingbetter.ru/get-report/
+15:14:45	Warning: 	Moved Permanently for becomingbetter.ru/?p=2012
+15:14:45	Warning: 	File has moved from becomingbetter.ru/?p=2012 to http://becomingbetter.ru/get-report-2/
+15:14:45	Warning: 	Moved Permanently for becomingbetter.ru/?p=2015
+15:14:45	Warning: 	File has moved from becomingbetter.ru/?p=2015 to http://becomingbetter.ru/get-report-3/
+15:14:45	Warning: 	Moved Permanently for becomingbetter.ru/?p=2193
+15:14:45	Warning: 	File has moved from becomingbetter.ru/?p=2193 to http://becomingbetter.ru/cart/
+15:15:31	Warning: 	Moved Permanently for becomingbetter.ru/?p=2194
+15:15:31	Warning: 	File has moved from becomingbetter.ru/?p=2194 to http://becomingbetter.ru/checkout/
+15:15:31	Warning: 	Moved Permanently for becomingbetter.ru/?p=2195
+15:15:31	Warning: 	File has moved from becomingbetter.ru/?p=2195 to http://becomingbetter.ru/my-account/
+15:15:31	Error: 	"Not Found" (404) at link becomingbetter.ru/lost-password/ (from becomingbetter.ru/my-account/)
+15:15:31	Warning: 	Moved Permanently for becomingbetter.ru/?p=1925
+15:15:31	Warning: 	File has moved from becomingbetter.ru/?p=1925 to http://becomingbetter.ru/service/content-marketing/
+15:15:31	Warning: 	Moved Permanently for becomingbetter.ru/?p=1933
+15:15:31	Warning: 	File has moved from becomingbetter.ru/?p=1933 to http://becomingbetter.ru/service/conversion-rate-optimization/
+15:15:31	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2Fservice%2Fconversion-rate-optimization%2F&format=xml (from becomingbetter.ru/service/conversion-rate-optimization/)
+15:15:31	Warning: 	Moved Permanently for becomingbetter.ru/?p=1936
+15:15:31	Warning: 	File has moved from becomingbetter.ru/?p=1936 to http://becomingbetter.ru/service/e-mail-marketing/
+15:15:31	Warning: 	Moved Permanently for becomingbetter.ru/?p=1939
+15:15:31	Warning: 	File has moved from becomingbetter.ru/?p=1939 to http://becomingbetter.ru/service/reputation-management/
+15:15:31	Warning: 	Moved Permanently for becomingbetter.ru/?p=1916
+15:15:31	Warning: 	File has moved from becomingbetter.ru/?p=1916 to http://becomingbetter.ru/service/social-media/
+15:15:31	Warning: 	Moved Permanently for becomingbetter.ru/?p=1922
+15:15:31	Warning: 	File has moved from becomingbetter.ru/?p=1922 to http://becomingbetter.ru/service/local-seo/
+15:16:05	Warning: 	Moved Permanently for becomingbetter.ru/?p=1928
+15:16:05	Warning: 	File has moved from becomingbetter.ru/?p=1928 to http://becomingbetter.ru/service/search-engine-marketing/
+15:16:05	Warning: 	Moved Permanently for becomingbetter.ru/?p=2018
+15:16:05	Warning: 	File has moved from becomingbetter.ru/?p=2018 to http://becomingbetter.ru/features-page/
+15:16:05	Warning: 	Moved Permanently for becomingbetter.ru/?p=2026
+15:16:05	Warning: 	File has moved from becomingbetter.ru/?p=2026 to http://becomingbetter.ru/contacts/
+15:16:05	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/ben3.jpg (from becomingbetter.ru/)
+15:16:05	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/?p=1911 (from becomingbetter.ru/teammate/gavin-white/)
+15:16:05	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2Fteammate%2Fgavin-white%2F (from becomingbetter.ru/teammate/gavin-white/)
+15:16:25	Warning: 	Moved Permanently for becomingbetter.ru/?p=1910
+15:16:25	Warning: 	File has moved from becomingbetter.ru/?p=1910 to http://becomingbetter.ru/teammate/alisson-smith/
+15:16:25	Warning: 	Moved Permanently for becomingbetter.ru/?p=1908
+15:16:25	Warning: 	File has moved from becomingbetter.ru/?p=1908 to http://becomingbetter.ru/teammate/max-brown/
+15:16:25	Warning: 	Moved Permanently for becomingbetter.ru/?p=1902
+15:16:25	Warning: 	File has moved from becomingbetter.ru/?p=1902 to http://becomingbetter.ru/teammate/maria-brown/
+15:16:26	Error: 	"Not Found" (404) at link becomingbetter.ru/youtu.be/ (from becomingbetter.ru/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=4.12)
+15:16:26	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/js_composer/assets/images/icons/balloon.png (from becomingbetter.ru/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.12)
+15:16:26	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/smile_fonts/Defaults/Defaults.svg?rfa9z8 (from becomingbetter.ru/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=4.5.4)
+15:16:26	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.eot?w8drmx (from becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.css?ver=4.5.4)
+15:16:27	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.svg?w8drmx (from becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.css?ver=4.5.4)
+15:18:15	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/plugins/suppamenu/standard/css/alico/fonts/alico.woff?w8drmx (from becomingbetter.ru/wp-content/plugins/suppamenu/standard/css/alico/style.css?ver=250)
+15:18:15	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/plugins/suppamenu/standard/css/alico/fonts/alico.svg?w8drmx (from becomingbetter.ru/wp-content/plugins/suppamenu/standard/css/alico/style.css?ver=250)
+15:18:36	Error: 	"Not Found" (404) at link becomingbetter.ru/vimeo.com/ (from becomingbetter.ru/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate.min.js?ver=3.16.6)
+15:18:36	Warning: 	Moved Permanently for becomingbetter.ru/?p=1241
+15:18:36	Warning: 	File has moved from becomingbetter.ru/?p=1241 to http://becomingbetter.ru/2012/01/07/template-sticky/
+15:21:19	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/2016/06/09/тест/feed/ (from becomingbetter.ru/2016/06/09/тест/)
+15:21:22	Warning: 	Moved Permanently for becomingbetter.ru/?p=14
+15:21:22	Warning: 	File has moved from becomingbetter.ru/?p=14 to http://becomingbetter.ru/2016/06/09/%d1%82%d0%b5%d1%81%d1%82/
+15:22:50	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/portfolio/web-studio/ (from becomingbetter.ru/portfolio/)
+15:28:42	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/d4-700x525.jpg (from becomingbetter.ru/portfolio/)
+15:32:56	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/finess4-700x525.jpg (from becomingbetter.ru/portfolio/)
+15:32:56	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/portfolio/seo-agency/ (from becomingbetter.ru/portfolio/)
+15:34:08	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/0003-1300x867-700x525.jpg (from becomingbetter.ru/category/blog/page/2/)
+15:34:08	Warning: 	Moved Permanently for becomingbetter.ru/?p=1857
+15:34:08	Warning: 	File has moved from becomingbetter.ru/?p=1857 to http://becomingbetter.ru/2015/11/19/blog-post-with-left-sidebar/
+15:34:08	Warning: 	Retry after error 500 (Internal Server Error) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2F2015%2F11%2F19%2Fblog-post-with-left-sidebar%2F&format=xml (from becomingbetter.ru/2015/11/19/blog-post-with-left-sidebar/)
+15:34:22	Warning: 	Moved Permanently for becomingbetter.ru/?p=1855
+15:34:22	Warning: 	File has moved from becomingbetter.ru/?p=1855 to http://becomingbetter.ru/2015/11/19/blog-post-with-2-sidebars/
+15:34:29	Warning: 	Moved Permanently for becomingbetter.ru/?p=1853
+15:34:29	Warning: 	File has moved from becomingbetter.ru/?p=1853 to http://becomingbetter.ru/2015/11/19/a-post-without-image/
+15:34:29	Warning: 	Moved Permanently for becomingbetter.ru/?p=1851
+15:34:29	Warning: 	File has moved from becomingbetter.ru/?p=1851 to http://becomingbetter.ru/2015/11/19/post-with-132456-password-protected/
+15:34:29	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2F2015%2F11%2F19%2Fpost-with-132456-password-protected%2F&format=xml (from becomingbetter.ru/2015/11/19/post-with-132456-password-protected/)
+15:34:29	Warning: 	Moved Permanently for becomingbetter.ru/?p=1849
+15:34:29	Warning: 	File has moved from becomingbetter.ru/?p=1849 to http://becomingbetter.ru/2015/11/19/audio-post-format/
+15:34:29	Warning: 	Moved Permanently for becomingbetter.ru/?p=1846
+15:34:29	Warning: 	File has moved from becomingbetter.ru/?p=1846 to http://becomingbetter.ru/2015/11/19/gallery-post-format/
+15:34:29	Warning: 	Moved Permanently for becomingbetter.ru/?p=1844
+15:34:29	Warning: 	File has moved from becomingbetter.ru/?p=1844 to http://becomingbetter.ru/2015/11/19/video-format/
+15:34:29	Warning: 	Moved Permanently for becomingbetter.ru/?p=1842
+15:34:29	Warning: 	File has moved from becomingbetter.ru/?p=1842 to http://becomingbetter.ru/2015/11/19/image-post-format/
+15:34:29	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/negativespace1-24-700x525.jpg (from becomingbetter.ru/2015/11/19/image-post-format/)
+15:34:37	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/2015/11/19/link-format-post/feed/ (from becomingbetter.ru/2015/11/19/link-format-post/)
+15:34:37	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/?p=1840 (from becomingbetter.ru/2015/11/19/link-format-post/)
+15:34:49	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2F2015%2F11%2F19%2Flink-format-post%2F (from becomingbetter.ru/2015/11/19/link-format-post/)
+15:34:50	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/?p=1838 (from becomingbetter.ru/2015/11/19/post-quote-format/)
+15:34:53	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2F2015%2F11%2F19%2Fpost-quote-format%2F (from becomingbetter.ru/2015/11/19/post-quote-format/)
+15:35:15	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-includes/js/mediaelement/jumpforward.png (from becomingbetter.ru/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.18.1)
+15:35:16	Error: 	"Not Found" (404) at link becomingbetter.ru/category/blog/mediaelement.min.js (from becomingbetter.ru/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.18.1-a)
+15:35:16	Error: 	"Not Found" (404) at link becomingbetter.ru/category/blog/mediaelement-and-player.js (from becomingbetter.ru/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.18.1-a)
+15:35:16	Warning: 	Moved Permanently for becomingbetter.ru/?p=2056
+15:35:16	Warning: 	File has moved from becomingbetter.ru/?p=2056 to http://becomingbetter.ru/blog-masonry/
+15:35:18	Warning: 	Moved Permanently for becomingbetter.ru/?p=2066
+15:35:18	Warning: 	File has moved from becomingbetter.ru/?p=2066 to http://becomingbetter.ru/blog-with-sidebar/
+15:35:18	Error: 	"Not Found" (404) at link becomingbetter.ru/blog-with-sidebar/_id=sl_category_posts_cat=blog_pt=post_ppp=10/page/2/ (from becomingbetter.ru/blog-with-sidebar/)
+15:35:18	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/category/blog/uncategorized/feed/ (from becomingbetter.ru/category/blog/uncategorized/)
+15:35:18	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/category/без-рубрики/feed/ (from becomingbetter.ru/category/без-рубрики/)
+15:35:39	Warning: 	Moved Permanently for becomingbetter.ru/?p=1
+15:35:39	Warning: 	File has moved from becomingbetter.ru/?p=1 to http://becomingbetter.ru/2016/06/08/%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80/
+15:35:39	Warning: 	Moved Permanently for becomingbetter.ru/?p=1148
+15:35:39	Warning: 	File has moved from becomingbetter.ru/?p=1148 to http://becomingbetter.ru/2012/01/03/template-comments/
+15:35:39	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/2012/01/03/template-comments/?replytocom=6 (from becomingbetter.ru/2012/01/03/template-comments/)
+15:35:48	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/2012/01/03/template-comments/?replytocom=20 (from becomingbetter.ru/2012/01/03/template-comments/)
+15:36:50	Warning: 	Moved Permanently for becomingbetter.ru/?p=1863
+15:36:50	Warning: 	File has moved from becomingbetter.ru/?p=1863 to http://becomingbetter.ru/testimonial/testimonial-3/
+15:36:50	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2Ftestimonial%2Ftestimonial-3%2F&format=xml (from becomingbetter.ru/testimonial/testimonial-3/)
+15:36:51	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/testimonial/testimonial-2/ (from becomingbetter.ru/testimonial/testimonial-3/)
+15:36:53	Warning: 	Moved Permanently for becomingbetter.ru/?p=1867
+15:36:53	Warning: 	File has moved from becomingbetter.ru/?p=1867 to http://becomingbetter.ru/testimonial/testimonial-5/
+15:37:43	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/plugins/woocommerce/assets/images/select2-spinner.gif (from becomingbetter.ru/wp-content/plugins/woocommerce/assets/css/select2.css?ver=2.6.4)
+15:37:46	Warning: 	Moved Permanently for becomingbetter.ru/?p=1912
+15:37:46	Warning: 	File has moved from becomingbetter.ru/?p=1912 to http://becomingbetter.ru/service/pay-per-click/
+15:38:24	Warning: 	Moved Permanently for becomingbetter.ru/?p=1911
+15:38:24	Warning: 	File has moved from becomingbetter.ru/?p=1911 to http://becomingbetter.ru/teammate/gavin-white/
+15:38:56	Error: 	"Receive Time Out" (-2) after 2 retries at link becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.svg?w8drmx (from becomingbetter.ru/wp-content/uploads/smile_fonts/alico/alico.css?ver=4.5.4)
+15:38:56	Error: 	"Receive Time Out" (-2) after 2 retries at link becomingbetter.ru/wp-content/plugins/suppamenu/standard/css/alico/fonts/alico.svg?w8drmx (from becomingbetter.ru/wp-content/plugins/suppamenu/standard/css/alico/style.css?ver=250)
+15:38:57	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/?p=1171 (from becomingbetter.ru/2012/01/08/template-paginated/)
+15:38:57	Warning: 	Moved Permanently for becomingbetter.ru/?p=1901
+15:38:57	Warning: 	File has moved from becomingbetter.ru/?p=1901 to http://becomingbetter.ru/portfolio/fitness-instructor/
+15:38:57	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2Fportfolio%2Ffitness-instructor%2F (from becomingbetter.ru/portfolio/fitness-instructor/)
+15:39:11	Warning: 	Moved Permanently for becomingbetter.ru/?p=1898
+15:39:11	Warning: 	File has moved from becomingbetter.ru/?p=1898 to http://becomingbetter.ru/portfolio/lawyer/
+15:39:11	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/2015/11/lawyer4.jpg (from becomingbetter.ru/portfolio/lawyer/)
+15:39:11	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/?p=1893 (from becomingbetter.ru/portfolio/digital-agency/)
+15:39:12	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/2015/11/d4.jpg (from becomingbetter.ru/portfolio/digital-agency/)
+15:39:13	Warning: 	Moved Permanently for becomingbetter.ru/?p=1888
+15:39:13	Warning: 	File has moved from becomingbetter.ru/?p=1888 to http://becomingbetter.ru/portfolio/personal-trainer/
+15:39:13	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/2015/11/gym1.jpg (from becomingbetter.ru/portfolio/personal-trainer/)
+15:39:15	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/gym1-560x350.jpg (from becomingbetter.ru/portfolio/personal-trainer/)
+15:39:17	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/gym2.jpg (from becomingbetter.ru/portfolio/personal-trainer/)
+15:39:53	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/2015/11/gym4.jpg (from becomingbetter.ru/portfolio/personal-trainer/)
+15:40:08	Warning: 	Moved Permanently for becomingbetter.ru/?p=1882
+15:40:08	Warning: 	File has moved from becomingbetter.ru/?p=1882 to http://becomingbetter.ru/portfolio/fitness-club/
+15:40:19	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2Fportfolio%2Ffitness-club%2F&format=xml (from becomingbetter.ru/portfolio/fitness-club/)
+15:40:24	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/finess4-700x525.jpg (from becomingbetter.ru/portfolio/)
+15:40:32	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/portfolio/seo-agency/ (from becomingbetter.ru/portfolio/)
+15:41:01	Warning: 	Moved Permanently for becomingbetter.ru/?p=1869
+15:41:01	Warning: 	File has moved from becomingbetter.ru/?p=1869 to http://becomingbetter.ru/portfolio/lawyer-agency/
+15:41:04	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2Fportfolio%2Flawyer-agency%2F&format=xml (from becomingbetter.ru/portfolio/lawyer-agency/)
+15:41:07	Warning: 	Moved Permanently for becomingbetter.ru/?p=1177
+15:41:07	Warning: 	File has moved from becomingbetter.ru/?p=1177 to http://becomingbetter.ru/2013/01/10/markup-image-alignment/
+15:41:07	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2F2013%2F01%2F10%2Fmarkup-image-alignment%2F (from becomingbetter.ru/2013/01/10/markup-image-alignment/)
+15:41:16	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/2015/11/0003-1300x867-700x525.jpg (from becomingbetter.ru/category/blog/page/2/)
+15:41:21	Warning: 	Retry after error 500 () at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2F2015%2F11%2F19%2Fblog-post-with-left-sidebar%2F&format=xml (from becomingbetter.ru/2015/11/19/blog-post-with-left-sidebar/)
+15:41:21	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/category/blog/posts/page/2/ (from becomingbetter.ru/category/blog/posts/)
+15:41:22	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2F2015%2F11%2F19%2Fpost-with-132456-password-protected%2F&format=xml (from becomingbetter.ru/2015/11/19/post-with-132456-password-protected/)
+15:41:36	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/negativespace1-24-700x525.jpg (from becomingbetter.ru/2015/11/19/image-post-format/)
+15:41:41	Warning: 	Moved Permanently for becomingbetter.ru/?p=1840
+15:41:41	Warning: 	File has moved from becomingbetter.ru/?p=1840 to http://becomingbetter.ru/2015/11/19/link-format-post/
+15:41:58	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2F2015%2F11%2F19%2Flink-format-post%2F (from becomingbetter.ru/2015/11/19/link-format-post/)
+15:41:58	Warning: 	Moved Permanently for becomingbetter.ru/?p=1838
+15:41:58	Warning: 	File has moved from becomingbetter.ru/?p=1838 to http://becomingbetter.ru/2015/11/19/post-quote-format/
+15:41:58	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2F2015%2F11%2F19%2Fpost-quote-format%2F (from becomingbetter.ru/2015/11/19/post-quote-format/)
+15:42:02	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/testimonial/testimonial-2/ (from becomingbetter.ru/testimonial/testimonial-3/)
+15:42:02	Warning: 	Moved Permanently for becomingbetter.ru/?p=1868
+15:42:02	Warning: 	File has moved from becomingbetter.ru/?p=1868 to http://becomingbetter.ru/testimonial/testimonial-6/
+15:42:02	Warning: 	Moved Permanently for becomingbetter.ru/?p=1171
+15:42:02	Warning: 	File has moved from becomingbetter.ru/?p=1171 to http://becomingbetter.ru/2012/01/08/template-paginated/
+15:42:02	Warning: 	Moved Permanently for becomingbetter.ru/?p=1899
+15:42:02	Warning: 	File has moved from becomingbetter.ru/?p=1899 to http://becomingbetter.ru/portfolio/web-studio/
+15:42:02	Warning: 	Moved Permanently for becomingbetter.ru/?p=1893
+15:42:02	Warning: 	File has moved from becomingbetter.ru/?p=1893 to http://becomingbetter.ru/portfolio/digital-agency/
+15:42:02	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/2015/11/gym2.jpg (from becomingbetter.ru/portfolio/personal-trainer/)
+15:42:02	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2Fportfolio%2Ffitness-club%2F&format=xml (from becomingbetter.ru/portfolio/fitness-club/)
+15:46:34	Error: 	"" (500) after 2 retries at link becomingbetter.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbecomingbetter.ru%2F2015%2F11%2F19%2Fblog-post-with-left-sidebar%2F&format=xml (from becomingbetter.ru/2015/11/19/blog-post-with-left-sidebar/)
+15:46:50	Warning: 	Moved Permanently for becomingbetter.ru/?p=1877
+15:46:50	Warning: 	File has moved from becomingbetter.ru/?p=1877 to http://becomingbetter.ru/portfolio/seo-agency/
+15:47:18	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/2015/11/seo1.jpg (from becomingbetter.ru/portfolio/seo-agency/)
+15:47:18	Warning: 	Retry after error -4 (No data (connection closed)) at link becomingbetter.ru/wp-content/uploads/2015/11/seo1-560x350.jpg (from becomingbetter.ru/portfolio/seo-agency/)
+15:47:18	Warning: 	Retry after error -2 (Receive Time Out) at link becomingbetter.ru/wp-content/uploads/2015/11/seo2-560x350.jpg (from becomingbetter.ru/portfolio/seo-agency/)
+15:47:52	Warning: 	Moved Permanently for becomingbetter.ru/?p=1861
+15:47:52	Warning: 	File has moved from becomingbetter.ru/?p=1861 to http://becomingbetter.ru/testimonial/testimonial-2/
+15:48:29	Warning: 	Moved Permanently for becomingbetter.ru/?p=1859
+15:48:29	Warning: 	File has moved from becomingbetter.ru/?p=1859 to http://becomingbetter.ru/testimonial/testimonial-1/
+
+HTTrack Website Copier/3.48-22 mirror complete in 2 hours 46 minutes 47 seconds : 947 links scanned, 748 files written (28156682 bytes overall) [34368807 bytes received at 3434 bytes/sec], 1.0 requests per connection
+(24 errors, 250 warnings, 0 messages)

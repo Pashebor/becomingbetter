@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+becomingbetter.ru	TRUE	/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
+becomingbetter.ru	TRUE	/	FALSE	1999999999	PHPSESSID	rks3ojstu7a5m06nhlbk9vg4b0
+.google.com	TRUE	/	FALSE	1999999999	NID	86=lRBErG7W_LzScMwtbp--uA88aJ2vKI9N0t_Nib6e_1s25uTxqkW96wJhx2ajLImpmsHaO0J4_gHKglEBG4-XnjYD0ryXoIZDEmEF8B6nsKLTbf9cqoVOA3e63ij0FCHm
+becomingbetter.ru	TRUE	/	FALSE	1999999999	vchideactivationmsg_vc11	12.0
+
