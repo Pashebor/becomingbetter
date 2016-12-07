@@ -363,7 +363,7 @@ $APPLICATION->SetTitle(""); ?><main role="main" class="seo"> <img src="/bitrix/t
 															<div class="ult-just-icon-wrapper ">
 																<div class="align-icon" style="text-align:center;">
 																	<div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
- <img src="/bitrix/templates/Becomingbetter3.ru/images/vred_1.webp" alt="">
+																		<img src="/bitrix/templates/Becomingbetter3.ru/images/vred_1.webp" alt="">
 																	</div>
 																</div>
 															</div>
