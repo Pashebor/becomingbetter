@@ -1,34 +1,43 @@
     /*
-    [ Table of Content ]
-    1. Main
-    2. Header
-    2.1 Header with static image
-    2.2 Header width topbar and slider
-    2.3 Header with topbar and white box menu
-    2.4 Header with green topbar and dark menu line
-    2.5 Header short for internal page
-    3. Menus
-    3.1 Menu Transparent
-    3.2 Menu with topbar and background
-    3.3 Menu with topbar and white box
-    3.4 Dark menu line and green topbar
-    3.5 Base menu - displays when Suppamenu turned off
-    4. Buttons
-    5. Content Blocks
-    5.1 Blog and sidebar
-    6. Pages and content block for pages
-    7. Call-to-Action
-    8. Footer
-    9. Shop
-    10. WordPress Styles
-    11. Visual Composer Styles
-    12. Animation
-    13. Responsive
-    */
+        [ Table of Content ]
+        1. Main
+        2. Header
+        2.1 Header with static image
+        2.2 Header width topbar and slider
+        2.3 Header with topbar and white box menu
+        2.4 Header with green topbar and dark menu line
+        2.5 Header short for internal page
+        3. Menus
+        3.1 Menu Transparent
+        3.2 Menu with topbar and background
+        3.3 Menu with topbar and white box
+        3.4 Dark menu line and green topbar
+        3.5 Base menu - displays when Suppamenu turned off
+        4. Buttons
+        5. Content Blocks
+        5.1 Blog and sidebar
+        6. Pages and content block for pages
+        7. Call-to-Action
+        8. Footer
+        9. Shop
+        10. WordPress Styles
+        11. Visual Composer Styles
+        12. Animation
+        13. Responsive
+        */
 
     /* =========================================
     1. Main
     */
+    @font-face {
+        font-family: 'Souvienne';
+        src: url('../fonts/Souvienne_Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Souvienne_Bold.woff') format('woff'),
+        url('../fonts/Souvienne_Bold.ttf')  format('truetype'),
+        url('../fonts/Souvienne_Bold.svg#Souvienne_Bold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
     #page-preloader {position: absolute;  left: 0; top:0; right: 0; bottom: 0; height: 100%; width: 100%; cursor: default;  pointer-events: none; text-align: center; vertical-align: middle; z-index: 999999999999999;}
     #page-preloader .bo {position: absolute; top: calc(50% - 37px); left: calc(50% - 24px); height: 74px; width: 42px; }
     #page-preloader .l1, #page-preloader .l2, #page-preloader .l3 {width:10px; border-radius: 1px; margin: auto 2px 0 2px; float: left; position: absolute;
@@ -54,10 +63,10 @@
     h1:after {content: ""; display: block;  width: 44px;  height: 4px;  background: rgba(68,221,97,1); margin: 31px auto 29px; border-radius:2px}
     h2:after {content: ""; display: block;  width: 44px;  height: 4px;  background: rgba(68,221,97,1); margin: 31px auto 29px; border-radius:2px}
     h1 {font-family: Arimo; color: #252a2c; font-weight: 700; font-size: 40px; line-height: 55px; text-transform: uppercase; text-align: center; margin:0 0 30px 0;}
-    h2 {font-family: Arimo; color: #252a2c; font-weight: 400; font-size: 40px; line-height: 55px; text-transform: uppercase; text-align: center; margin-bottom:30px;}
+    h2 {font-family: Arimo; color: #252a2c; font-weight: 400; font-size: 30px; line-height: 55px; text-transform: uppercase; text-align: center; margin-bottom:30px;}
     h3 {font-family: Arimo; color: #252a2c; font-weight: 400; font-size: 22px; line-height: 34px; text-transform: uppercase; text-align: center; margin-bottom:25px;}
     h4 {font-family: Arimo; color: #252a2c; font-weight: 400; font-size: 20px; line-height: 30px; text-transform: uppercase; text-align: center; margin-bottom:25px;}
-    h5 {font-family: sans-serif; color: #252a2c; font-weight: 600; font-size: 14px; text-transform: uppercase; text-align: left;}
+    h5 {font-family: Arimo; color: #252a2c; font-weight: 600; font-size: 14px; text-transform: uppercase; text-align: left;}
     h6 {font-family: Arimo; color: #252a2c; font-weight: 400; font-size: 16px; line-height: 26px; text-transform: uppercase; text-align: center; margin-bottom:25px;}
     a {color:rgba(38,183,231,1)}
     a:hover {color:rgba(68,221,97,1)}
@@ -179,6 +188,37 @@
     /* =========================================
     2. Header
     */
+    .logo-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        background-repeat: no-repeat;
+        background-image: url('/bitrix/templates/Becomingbetter3.ru/images/slider1-1.jpg');
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        visibility: inherit;
+        z-index: 20;
+    }
+
+    .big-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 250px;
+        width: 100%;
+    }
+    .big-logo__img{
+        width: 50%;
+    }
+    .logo{font-family: 'Souvienne';  font-size: 3.5em; color: white; text-align: center; font-weight: 800; margin-top: 250px; letter-spacing: 3px; line-height: 1em;}
+    .logo__desc{color: rgba(101, 236, 149, 1.00); margin-top: 50px; font-family: "Arimo"; font-size: 2.4em; text-align: center; letter-spacing: 3px; text-wrap: normal; line-height: 0.8em;}
+    .logo__seo{font-size: 1.1em; line-height: 28px; font-weight: 500; color: rgba(255, 255, 255, 1.00);font-family:Arial, Helvetica, sans-serif; text-align: center;}
+    .increase-header h2{font-weight: 700; color: rgba(101, 236, 149, 1.00);}
     .theseo_saveheader {height:400px; background-color: #53565b;  text-align: center; padding-top: 100px;}
     .theseo_saveheader img {}
     .mainbgr .theseo_saveheader {display: none !important}
@@ -279,7 +319,6 @@
 
     /* =========================================
     3.1 Menu transparent
-
     */
     .transparentmenu .header1and5 .suppa_top_level_link .suppa_item_title {text-transform: uppercase}
     .transparentmenu .topbartransparent, .headermenuwhitebox .topbartransparent {position: relative; height: 60px; margin-bottom: 0;}
@@ -400,7 +439,7 @@
 
     /* DROPDOWN MENU */
     .menu .menu-item-has-children,
-    .menu .page_item_has_children {font-family: ''Arimo', sans-serif', sans-serif;    position: relative}
+    .menu .page_item_has_children {font-family: 'Arimo', 'sans-serif', sans-serif;    position: relative}
     .menu > .menu-item-has-children:after,
     .menu > .page_item_has_children:after {content: "\f502"; font-family: "Genericons"; font-size:10px; position: absolute;top: 14px; right: 10px; color: #FFF;}
     .menu .menu-item-has-children .sub-menu,
@@ -422,6 +461,8 @@
     /* =========================================
     4. Buttons
     */
+
+    .audit-button-block{display: flex; flex-direction: row; margin-top: 40px;}
     .btn-callback{
         border: 2px solid rgb(68, 221, 97);
         font-family: Roboto;
@@ -430,7 +471,7 @@
         letter-spacing: 0px;
         padding: 8px 20px;
         font-size: 12px;
-        transition: 0.5s linear;
+        transition: 0.3s linear;
         border-radius: 50px;
         color: rgb(68, 221, 97);
         text-transform: uppercase;
@@ -438,9 +479,53 @@
         animation: btnCallBackAnim 3s;
     }
 
+
     .btn-callback:hover{
         background-color: rgb(68, 221, 97);
         color: white;
+    }
+
+    .btn-portfolio{
+        margin: 40px 0 150px 0;
+        border: 2px solid rgb(68, 221, 97);
+        font-family: Roboto;
+        background-color: rgba(0, 0, 0, 0);
+        letter-spacing: 0px;
+        padding:18px 35px 18px 35px;
+        font-size: 17px;
+        line-height: 17px;
+        font-weight: 500;
+        transition: 0.3s linear;
+        border-radius: 50px;
+        color: rgb(68, 221, 97);
+        text-transform: uppercase;
+        opacity: 1;
+        animation: btnCallBackAnim 3s;
+    }
+
+
+    .btn-portfolio:hover{
+        text-decoration: none;
+        background-color: rgb(68, 221, 97);
+        color: white;
+    }
+
+    .btn-callback-2{
+        border: 2px solid rgb(68, 221, 97);
+        font-weight: 400;
+        font-size: 1em;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 5px 20px 5px 20px;
+        transition: 0.3s linear;
+        border-radius: 50px;
+        color: rgb(68, 221, 97);
+        opacity: 1;
+        animation: btnCallBackAnim 3s;
+    }
+    .btn-callback-2:hover{
+        background-color: rgba(38,183,231,1);
+        color: white;
+        border: 2px solid rgba(38,183,231,1);
     }
 
     @keyframes btnCallBackAnim {
@@ -454,7 +539,7 @@
     main input[type=submit]:active, main input[type=submit]:focus, main button:focus, main button:active { background-color: #ececec !important;}
 
     a.btn-info, span.btn-info, button.btn-info, div.btn-info a, div.rev-btn.btn-info, div.btn-info button, .navbar-nav > li > a.btn-info, input[type=submit].btn-info {color:#FFF !important; border-width: 0 !important; border-radius:150px !important;
-        background: rgba(68,221,97,1) !important;
+        background: rgba(0,0,0,0) !important;
         background: -webkit-gradient(linear, left top, right top, from(rgba(38,183,231,1)), to(rgba(68,221,97,1))) !important;
         background: -webkit-linear-gradient(left, rgba(38,183,231,1) 0%, rgba(68,221,97,1) 100%) !important;
         background: -moz-linear-gradient(left, rgba(38,183,231,1) 0%, rgba(68,221,97,1) 100%) !important;
@@ -927,7 +1012,7 @@
     .post_format_query_block {position: relative; z-index: 99}
     .postfb {margin-bottom:30px; padding-left:0; padding-right:30px}
     .postfb article { background-color:#FFF;padding-right:25px}
-    .postfb .format-standard.has-post-thumbnail h3.entry-title {text-transform:none; font-size:20px;     line-height: 30px; font-family: ''Arimo', sans-serif', sans-serif; font-weight:500; margin:0 auto 7px; padding-top:30px}
+    .postfb .format-standard.has-post-thumbnail h3.entry-title {text-transform:none; font-size:20px;     line-height: 30px; font-family: 'Arimo', 'sans-serif', sans-serif; font-weight:500; margin:0 auto 7px; padding-top:30px}
     .postfb .entry-thumbnail { width:254px; margin:0 30px 0 0; float:left}
     .postfb .entry-meta{color:#bdbdbd; font-size:12px; text-transform:uppercase; text-align:left; margin-bottom:20px}
     .postfb .entry-meta .author {margin-right:30px}
@@ -1192,7 +1277,7 @@
     .iconbox3:hover .icon, .iconbox3:hover .fa, .iconbox3:hover .iconic {color:rgba(38,183,231,1)}
     .iconbox3 h3 { margin-top:60px}
     .iconbox3 h3.save {color:#c00000; margin-top:10px}
-    .aio-icon-header h3.aio-icon-title {font-size:22px}
+    /*.aio-icon-header h3.aio-icon-title {font-size:22px}*/
     .iconbox3 i {border: 1px #eeeeee solid; padding: 30px;  border-radius: 500px; -webkit-transition: all 600ms;  -moz-transition: all 600ms;  transition: all 600ms; }
     .iconbox3 .aio-icon {padding: 2px;  border: 4px #eeeeee solid; -webkit-transition: all 600ms;  -moz-transition: all 600ms;  transition: all 600ms; }
     .iconbox3:hover i, .iconbox3:hover .aio-icon { border-color:rgba(38,183,231,1) !important; color:rgba(38,183,231,1) !important}
@@ -1264,7 +1349,13 @@
     .serviceslistmain .slist a.more:hover {color:rgba(248,248,248,1)}
     .serviceslistmain .slist:nth-child(odd) { background-color:rgba(68,221,97,1)}
     .serviceslistmain .slist:nth-child(even) { background-color:rgba(38,183,231,1)}
+    /*Audit block from primay page*/
+    .audit-block{background:url('/bitrix/templates/Becomingbetter3.ru/images/cta1.jpg'); background-size: cover; padding: 80px 0 100px 0; color: white;}
+    .audit-block h2{color:#FFF; text-align:left;}
+    .audit-block h2::after {margin-left:0}
+    .audit-block p {font-size:17px; color:#FFF}
 
+    /*****/
     /* Comments */
     .comment-metadata {text-align: left; font-size:15px}
     .comment-metadata a { text-decoration:none; font-size:15px; color: rgba(37,42,44,1)}
@@ -1326,7 +1417,7 @@
     .post_format_query_block {position: relative; z-index: 99}
     .postfb {margin-bottom:30px; padding-left:0; padding-right:30px}
     .postfb article { background-color:#FFF;padding-right:25px}
-    .postfb .format-standard.has-post-thumbnail h3.entry-title {text-transform:none; font-size:20px;     line-height: 30px; font-family: ''Arimo', sans-serif', sans-serif; font-weight:500; margin:0 auto 7px; padding-top:30px}
+    .postfb .format-standard.has-post-thumbnail h3.entry-title {text-transform:none; font-size:20px;     line-height: 30px; font-family: 'Arimo', 'sans-serif', sans-serif; font-weight:500; margin:0 auto 7px; padding-top:30px}
     .postfb .entry-thumbnail { width:254px; margin:0 30px 0 0; float:left}
     .postfb .entry-meta{color:#bdbdbd; font-size:12px; text-transform:uppercase; text-align:left; margin-bottom:20px}
     .postfb .entry-meta .author {margin-right:30px}
@@ -1418,7 +1509,6 @@
     /* Call-to-Action Block 1 Get free SEO Audit */
     .calltoactionblock {position:relative; z-index:1;padding:0}
     .calltoactionblock form { margin-top:0}
-    .ctaction1 {padding: 80px 0 100px 0; text-align:left; position:relative; z-index:-2; background-size: cover;}
     .ctaction1 h2 {color:#FFF; text-align:left}
     .ctaction1 h2:after {margin-left:0}
     .ctaction1 p {font-size:17px; color:#FFF}
@@ -1459,23 +1549,32 @@
     */
     .footer {padding:0}
     .footer .widget {margin-bottom:0}
-    .gcontact {position:relative; height: 600px; padding:0}
+    .footer-info{  display: flex;  flex-direction: column;  margin-top: 30px;  }
+    .footer-info address{margin: 0 0 0 0;}
+    .copyright-block{color: #b2b4b4; text-align: center}
+    .footer__form-block{display: flex; flex-direction: row; justify-content: center;}
+    .form-block__form{width: inherit; display:flex; flex-direction: column; align-items: center;}
+    .social-buttons{display: flex; flex-flow: row wrap; justify-content: space-around; margin-top: 40px; padding-left: 30px; align-items: center;}
+    .gcontact {position:relative; height: 500px; padding:0}
+    .cusinfopos__header{font-size: 1.5em; font-weight: bold; text-align: center; color: white;}
+    .cusinfopos__header::after{ margin: 5px auto 5px !important;}
     #footermap {position:relative; width: 100%;height: 600px;margin: 0;}
-
-    .map-info .cusinfopos {    padding-left: 50px; width:665px; text-align:left; position:absolute; right:0; padding-top:100px}
+    .callback-2{display: flex; flex-direction: row; justify-content: center;}
+    .map-info .cusinfopos { display: flex; flex-direction: column; justify-content: center;   padding: 20px 0 0 0; width: 100%; text-align:left;  align-items: center;}
     .map-info {position: absolute; width:100%;height: 100%;margin: 0;	padding: 0;	background: rgba(44,51,53, 0.7);color: #fff;font-size: 17px;
         float: right;font-weight:bold; top:0; right:0; line-height:2.2em}
-    .map-info h2 {text-align:left; color:#FFF}
-    .map-info h2:after {display: none}
-    .map-info strong {font-size:55px; color: rgba(89,226,138,1); font-family: Arimo; margin:40px 0 30px 0; display:block}
+    .map-info strong {font-size:55px; color: rgba(89,226,138,1); font-family: Arimo; display:block; transition: 0.5s linear; text-align: center;}
+    .map-info strong:hover {color: rgba(38,183,231,1);}
     .map-info .see {font-size:13px; text-transform:uppercase; color:#b2b4b4 }
     .map-info .see:hover {color:#FFF; cursor:pointer}
     #sbtn {position:absolute !important; bottom:90px; right:500px;}
     #dnone {display:none !important;}
-
+    .map-info a{text-decoration: none;}
+    .map-info a{text-decoration: none;}
     .map-info i {margin-right:10px}
     .map-info .icon-skype {margin-left:30px}
-    .socialbottom {background-size:cover; color:#FFF; background-color:#27282a; height:600px; text-align:left; padding:60px 0 0 60px}
+    .socialbottom {background-size:cover; color:#FFF; background-color:#27282a; height: 500px; text-align:left; padding:20px 0 0 0;}
+    .socialbottom h2{text-align: center}
     .socialbottom a {text-decoration:none;text-align:center; width:80px; height:80px; display:inline-block; margin: 0 40px 20px 0;  }
     .socialbottom a i, .socialbottom a .icon {color:#FFF; text-decoration:none; font-size:36px; padding:0; border-radius:80px; background-color: rgba(255,255,255,0.14); display:block; width:80px; height:80px; line-height:80px}
     .socialbottom a:hover {text-decoration:none;}
@@ -1496,6 +1595,8 @@
     .socialbottom a:hover span.icon-blogger { background-color:#f47c01}
     .socialbottom a:hover .icon-wordpress { background-color:#464442}
     .socialbottom a:hover .icon-behance { background-color:#2551f6}
+    .socialbottom__header{font-size: 1.5em; font-weight: bold; text-align: center; color: white;}
+    .socialbottom__header::after{margin: 5px auto 5px !important;}
 
     .footerline {background-color: rgba(68,221,97,1); padding:40px 0; color:#FFF}
 
@@ -1948,6 +2049,10 @@
 
     }
     @media screen and (max-width: 960px) {
+        h1{font-size: 1.5em;}
+        h2{font-size: 1em;}
+        .logo-block__desc{font-size: 2em;}
+        .map-info .cusinfopos{padding: 0;}
         .benefits .beninside {height: auto; padding-bottom: 20px; margin-bottom: 0;}
         .socialbartransparent {text-align: center;}
         .suppaMenu_rwd_wrap .suppa_rwd_menu > .suppa_rwd_submenu {width: 100% !important; margin-left: 0 !important;  }
@@ -1988,13 +2093,16 @@
         .requestform .wpcf7-form-control-wrap {margin-bottom: 0}
         .socialbottom {height: auto;padding: 60px 0 40px 60px;}
         .footerline .text-right {margin-top: 25px}
-        .map-info .cusinfopos {right: auto; left: 0; }
         [id*="form-wysija-"] {margin: 0 auto; }
         .header3 .suppa_top_level_link, .header3 .suppa_menu_woocommerce_cart, .header3 .suppa_menu_woocommerce_cart a { border-radius: 0 !important}
         .head3 { position: relative;}
         .head4 { position: relative;}
     }
     @media screen and (max-width: 768px) {
+        h1{font-size: 1.5em;}
+        h2{font-size: 1em;}
+
+        .logo__desc{font-size: 1.5em;}
         .contacttb i, .contacttb span { margin-left: 0;}
         .digservicetab .ult_tabmenu .aio-icon { font-size: 25px!important; }
         .slist {padding-bottom: 10px}
@@ -2015,7 +2123,7 @@
         .socialbottom a {  display: inline-block; margin: 0 20px 20px 0;}
         .socialbottom a i, .socialbottom a .icon {  display: inline-block;}
         .socialbottom {height: auto; padding: 60px 0 60px 0; text-align:center}
-        .map-info .cusinfopos {  width: 100%;}
+        .map-info .cusinfopos {  width: 100%; padding: 30px 0 0 0;}
         #sbtn {position:absolute; bottom:90px; right:55%;}
         .hiderform {font-size:16px;}
         .menutopbar .logotb, .menutopbar .phone, .menutopbar .buttsect {padding-bottom:20px; text-align:center;}
@@ -2097,6 +2205,8 @@
     }
 
     @media screen and (max-width: 640px) {
+        .audit-button-block{flex-direction: column; align-items: center; margin-top: 40px;}
+        .logo__desc{font-size: 1em;}
         .container {width:610px}
         .noslider1.mobi100 {width:100%}
         .noslider1 img {max-width:100%}
@@ -2116,9 +2226,9 @@
         .digital-format.post img, .digital-format .entry-thumbnail { width: 100%; float: none; clear: both; margin: 0 0 0 0; }
         .container {width:490px}
         .calltoactionblock2 .ovgreencta2 {padding: 20px 0 40px 0;}
-        .map-info .cusinfopos {padding: 10px 30px 5px 30px; }
+        .map-info .cusinfopos {padding: 10px 0px 5px 0px; align-content: center; }
         .map-info strong {  margin: 20px 0 20px 0;}
-        .map-info h2 {margin-bottom: 20px; font-size: 34px;}
+        .cusinfopos__header {margin-bottom: 20px; font-size: 1.5em;}
         #team-index .item img {float: none; margin: 0 auto 0 auto;width: 100%;}
         .catteam #team-index .item {  padding: 0 0 20px 0;}
         #team-index .item {padding: 0 0 35px 0; height: auto;margin: 0;}
@@ -2143,11 +2253,17 @@
         .benefits .why h2 {font-size: 30px;}
     }
     @media screen and (max-width: 480px) {
+        h1{font-size: 1.4em;}
+        h2{font-size: 1em;}
+        h2{font-size: 0.8em;}
         .container {width:440px}
         a.btn, span.btn, button.btn, div.btn a, div.rev-btn.btn, div.btn button, main input[type=submit] {white-space: normal !important;}
 
     }
     @media screen and (max-width: 420px) {
+        .logo{font-size: 2em; line-height: 0.8em;}
+        .logo__desc{font-size: 1.5em; line-height: 1.5em;}
+        .logo__seo{font-size: 1em;}
         .container {width:380px}
         #portfoliogrid .item { margin:0; position:relative; width:100%;}
     }
@@ -2155,20 +2271,22 @@
         .container {width:360px}
     }
     @media screen and (max-width: 320px) {
+        .audit-block{background-size: auto; padding: 0;}
+        .gcontact{height: 500px;}
+        .footer-info{text-align: center;}
+        .socialbottom{height: auto; padding: 0;}
+        .cusinfopos__header{font-size: 1.3em;}
+        .socialbottom__header{font-size: 1.3em}
+        .social-buttons{margin-top: -60px;}
+        .map-info strong {font-size: 1.5em; margin-top: -10px;}
+        .btn-callback-2{margin-top: -20px;}
+        .cta1desc a{margin: 0}
+        /*.map-info .cusinfopos{};*/
         .container {width:280px}
         .contacttb {font-size: 0.9em; }
         .transparentmenu.default {background-color: rgba(0,0,0,0.75)}
-
-        .map-info strong { font-size: 29px; margin: 10px 0; }
-
     }
 
     /* ===============================
     NEW
     */
-
-
-
-
-
-

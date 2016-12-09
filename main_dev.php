@@ -280,15 +280,14 @@
                                         <div class="vc_column-inner ">
                                             <div class="wpb_wrapper">
                                                 <section class="calltoactionblock">
-                                                    <div class="container-fluid ctaction1" style="background-image:url('/bitrix/templates/Becomingbetter3.ru/images/cta1.jpg');">
+                                                    <div class="container-fluid  audit-block">
                                                         <div class="container">
                                                             <div class="row">
                                                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                                     <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                                                                         <div class="cta1desc animated bounceInLeft">
-                                                                            <h2>НАЧНИТЕ С ГЛАВНОГО - С АУДИТА. Узнайте о своем сайте всё от А до Я</h2>
-                                                                            <p>
-                                                                            </p>
+                                                                            <h2>НАЧНИТЕ С ГЛАВНОГО - С АУДИТА.</h2>
+
                                                                             <div id="comp-iffm6vvx" class="s1">
                                                                                 <p>
                                                                                     <span class="color_16">Что дает Вам Аудит?</span>
@@ -302,9 +301,10 @@
                                                                                     <li>четкое понимание, где Вы находитесь сейчас (точка А), и куда Вы можете прийти уже через 12 месяцев&nbsp;&nbsp;(точка Б).</li>
                                                                                 </ul>
                                                                             </div>
-                                                                            <p>
-                                                                            </p>
-                                                                            <span class="btn btn-info btn-lg marginleft hiddesc">Заказать аудит</span> <a class="btn btn-primary btn-lg marginleft" href="/reviews/">Отзывы</a>
+                                                                            <div class="audit-button-block">
+                                                                                <a href="#" class="btn btn-primary btn-lg marginleft">Заказать аудит</a>
+                                                                                <a class="btn btn-primary btn-lg marginleft" href="/reviews/">Отзывы</a>
+                                                                            </div>
                                                                         </div>
                                                                         <div class="requestform animated bounceOutLeft">
                                                                             <div role="form" class="wpcf7" id="wpcf7-f1715-p1975-o1" dir="ltr" lang="en-US">
@@ -361,10 +361,10 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " role="img" style="height:56px; width:56px;display:inline-block;padding: 10px;">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/vred_1.webp" alt="">-->
-                                                                                <svg version="1.1" class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                                                     viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
+                                                                                <svg  version="1.1" class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
                                                                                     <style type="text/css">
                                                                                         .st0{fill:#9D9E9F;}
                                                                                     </style>
@@ -386,7 +386,7 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/vred_2.webp" alt="">-->
                                                                                 <svg version="1.1" class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
@@ -416,7 +416,7 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/vred_3.webp" alt="">-->
                                                                                 <svg version="1.1" class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
@@ -449,19 +449,16 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/vred_4.webp" alt="">-->
                                                                                 <svg version="1.1" class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
                                                                                     <style type="text/css">
                                                                                         .st04{fill:#9d9f9f;}
-                                                                                        .st14{display:none;fill:#FFFFFF;}
                                                                                         .st24{fill:#FCFCFC;}
                                                                                     </style>
                                                                                     <g>
                                                                                         <path class="st04" d="M52.8,26.3c0,0.9,0,1.8,0,2.7c0,0-0.1,0.1-0.1,0.1c-0.6,4.3-4.5,7.6-9.3,7.5c-4-0.1-8,0-12,0c-0.4,0-0.7,0.1-1,0.4c-3.9,3.9-7.9,7.7-11.9,11.6c-0.1,0.1-0.2,0.4-0.6,0.4c1.5-4.1,3-8.2,4.5-12.3c-0.3,0-0.5,0-0.7,0c-3.2,0-6.4,0.1-9.5,0c-3.6-0.1-6.3-1.7-8.1-4.9c-0.5-0.9-0.6-1.8-1-2.7c0-0.9,0-1.8,0-2.8c0,0,0.1-0.1,0.1-0.1c0.6-3,2.3-5.1,5-6.5c0.3-0.1,0.3-0.3,0.3-0.6c0-0.8,0.1-1.6,0.2-2.5c0.9-5.8,6.3-10.3,12.3-10.4c4.1,0,7.6,1.5,10.2,4.6c0.3,0.3,0.5,0.4,0.8,0.2c1.9-1,3.9-1.4,6-1.1c4.9,0.5,8.6,4.4,8.9,9.1c0,0.4,0.2,0.5,0.5,0.7c2.1,1,3.6,2.6,4.4,4.8C52.4,25,52.6,25.7,52.8,26.3z M29.1,31.2c0.9-2.4,1.8-4.8,2.8-7.2c-2.3,0-4.5,0-6.8,0c-0.4,0-0.4,0.2-0.5,0.5c-0.7,1.8-1.4,3.7-2.1,5.5c-0.6,1.6-1.2,3.1-1.9,4.8c1.5,0,2.8,0,4.2,0c0.5,0,0.5,0.1,0.4,0.5c-0.8,2-1.5,4-2.2,6c-0.1,0.2-0.2,0.4-0.2,0.5c3.6-3.5,7.2-7,10.8-10.5C32.1,31.2,30.6,31.2,29.1,31.2z"/>
-                                                                                        <path class="st14" d="M0.1,29.7c0.4,1,0.6,2.2,1.1,3.2c2,3.6,5,5.6,9.1,5.6c3.6,0.1,7.2,0,10.8,0c0.2,0,0.5,0,0.8,0c-1.7,4.8-3.4,9.5-5.1,14.3c0.3,0,0.5-0.3,0.6-0.4c4.5-4.5,8.9-8.9,13.4-13.4c0.3-0.3,0.6-0.4,1.1-0.4c4.5,0,9.1-0.1,13.6,0c5.4,0.1,9.8-3.7,10.5-8.7c0,0,0.1-0.1,0.1-0.1c0,8.6,0,17.3,0,25.9c0,0.5-0.1,0.6-0.6,0.6c-18.3,0-36.6,0-54.9,0c-0.5,0-0.6-0.1-0.6-0.6C0.1,46.9,0.1,38.3,0.1,29.7z"/>
-                                                                                        <path class="st14" d="M56.1,28.2c-0.2-0.8-0.4-1.5-0.6-2.3c-0.9-2.7-2.6-4.6-5-5.9c-0.4-0.2-0.5-0.4-0.6-0.9c-.3-5.9-4.6-10.6-10.1-11.3c-2.4-0.3-4.7,0.2-6.8,1.4c-0.4,0.3-0.6,0.2-1-0.2c-3-3.8-6.9-5.7-11.6-5.7C13.7,3.5,7.6,9,66,16.2c-0.1,1-0.3,2-0.2,3c0,0.3-0.1,0.5-0.4,0.7c-3.1,1.7-5.1,4.3-5.7,8c0,0.1-0.1,0.1-0.1,0.1c0-9.1,0-18.20-27.3c0-0.5,0-0.6,0.6-0.6c18.3,0,36.6,0,54.9,0c0.5,0,0.6,0.2,0.6,0.6C56.1,9.9,56.1,19.1,56.1,28.2z"/>
                                                                                         <path class="st24" d="M29.1,31.2c1.5,0,3,0,4.3,0c-3.6,3.5-7.2,7-10.8,10.5c0-0.1,0.1-0.3,0.2-0.5c0.7-2,1.5-4,.2-6c0.2-0.4,0.1-0.5-0.4-0.5c-1.4,0-2.8,0-4.2,0c0.6-1.6,1.3-3.2,1.9-4.8c0.7-1.8,1.4-3.7,2.1-5.5c0.1-0.2,0.1-0.5,0.5-0.5c2.2,0,4.5,0,6.8,0C30.9,26.4,30,28.8,29.1,31.2z"/>
                                                                                     </g>
                                                                                 </svg>
@@ -478,7 +475,7 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/vred_5.webp" alt="">-->
                                                                                 <svg version="1.1" class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
@@ -502,7 +499,7 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/vred_6.webp" alt="">-->
                                                                                 <svg version="1.1" class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
@@ -526,7 +523,7 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/vred_7.webp" alt="">-->
                                                                                 <svg version="1.1" class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
@@ -574,12 +571,12 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/polz_1.webp" alt="">-->
                                                                                 <svg version="1.1"class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
                                                                                     <style type="text/css">
-                                                                                        .st08{fill:#65BD5C;}
+                                                                                        .st08{fill:#44dd61;}
                                                                                     </style>
                                                                                     <g>
                                                                                         <path class="st08" d="M21,32c-0.5,0-0.9,0-1.4,0.1c-0.1,0-0.3,0-0.4,0c-0.1,0-0.2,0-0.3,0c-0.3,0.1-0.4-0.1-0.4-0.3c0-0.2,0-0.3-0.1-0.4c0-0.4-0.1-0.8-0.1-1.2c0-0.1,0-0.2-0.1-0.4c0-0.1,0-0.1,0-0.2c0.1-0.5-0.2-0.7-0.6-0.7c-0.1,0-0.1,0-0.2,0c-0.4-0.2-0.8-0.3-1.2-0.3c-0.1-0.1-0.2-0.1-0.3-0.1c-0.2-0.1-0.5-0.1-0.7-0.3c0.1-0.2,0.1-0.4,0.2-0.6c0.2-0.6,0.3-1.2,0.4-1.8c0-0.2,0.3-0.5,0-0.7c-0.2-0.2-0.5-0.4-0.8-0.6c-0.1,0-0.1-0.1-0.2-0.1c-0.2-0.2-0.5-0.4-0.8-0.6c-0.1-0.1-0.2-0.1-0.3-0.2c-0.3-0.2-0.4-0.4-0.1-0.7c0.2-0.2,0.3-0.5,0.5-0.8c0.3-0.5,0.7-0.9,0.9-1.4c0-0.4-0.3-0.6-0.5-0.9c0-0.1-0.1-0.2-0.2-0.3c-0.1-0.3-0.3-0.5-0.5-0.8c0-0.1-0.1-0.2-0.2-0.3c-0.3-0.4-0.2-0.6,0.2-0.8c0.6-0.4,1.1-0.8,1.7-1.2c0.3-0.2,0.4-0.4,0.3-0.7c-0.1-0.2-0.1-0.3-0.2-0.5c0-0.1,0-0.2-0.1-0.4c0-0.4-0.1-0.7-0.3-1.1c0-0.1,0-0.2-0.1-0.4c-0.2-0.6,0.4-0.4,0.6-0.6c0.2,0,0.4-0.1,0.6-0.2c0.5-0.1,1-0.3,1.5-0.4c0.1,0,0.2-0.1,0.2-0.2c0-0.4,0.1-0.8,0.1-1.2c0-0.2,0-0.4,0.1-0.5c0-0.3,0.1-0.6,0.1-0.9c0-0.3,0.1-0.3,0.4-0.3c0.2,0,0.5,0,0.7,0.1c0.1,0,0.3,0,0.4,0c0.4,0.1,0.8,0.1,1.2,0.1c0.3,0.1,0.5,0.1,0.6-0.3c0.1-0.2,0.2-0.4,0.2-0.6c0.2-0.5,0.5-1,0.7-1.5c0.2-0.4,0.3-0.5,0.7-0.2c0.1,0,0.1,0,0.2,0.1c0,0.1,0.1,0.1,0.2,0.1c0.3,0.2,0.6,0.3,0.9,0.4c0.1,0.1,0.3,0.2,0.4,0.2c0.6,0.3,0.7,0.3,1.1-0.2c0.6-0.6,1.2-1.1,1.7-1.7c0.1,0,0.1,0,0.2,0c0.2,0.4,0.6,0.6,0.9,0.9c0.1,0.1,0.2,0.2,0.3,0.3c0.2,0.2,0.4,0.4,0.6,0.6c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.2,0.2,0.3,0.1c0.6-0.3,1.3-0.6,1.9-0.9c0.3-0.1,0.5-0.2,0.8-0.3c0.2,0.2,0.2,0.5,0.4,0.7c0,0.1,0.1,0.2,0.1,0.3c0.1,0.4,0.3,0.7,0.5,1.1c0,0.1,0.1,0.1,0.1,0.2c0.3,0.7,0.3,0.7,0.9,0.6c0.1,0,0.3,0,0.4,0c0.5-0.1,1,0,1.5-0.1c0.1,0,0.3,0,0.4,0c0.2,0,0.2,0.2,0.2,0.3c0,0.2,0.1,0.3,0.1,0.5c0,0.1,0,0.3,0,0.4c0,0.4,0.1,0.8,0.1,1.2c0,0.1,0,0.3,0,0.4c-0.1,0.2,0,0.4,0.3,0.4c0.2,0,0.4,0.1,0.7,0.2c0.1,0,0.2,0.1,0.4,0.1c0.3,0.1,0.7,0.2,1.1,0.3c0.1,0.1,0.2,0.1,0.3,0.1c0.3,0.1,0.4,0.2,0.3,0.5c0,0.1-0.1,0.3-0.1,0.4c-0.1,0.2-0.1,0.4-0.2,0.6c-0.1,0.5-0.3,1.1-0.4,1.6c0,0.1,0,0.1,0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.2,0.2,0.5,0.4,0.8,0.6c0,0.1,0.1,0.1,0.1,0.1c0.3,0.2,0.5,0.4,0.8,0.6c0.1,0.1,0.2,0.2,0.3,0.2c0.2,0.2,0,0.3-0.1,0.4c-0.5,0.8-1,1.5-1.5,2.3c0,0,0,0,0,0c-0.1,0.1-0.1,0.1,0,0.1c0,0.1,0.1,0.2,0.2,0.2c0.1,0.3,0.3,0.5,0.5,0.8c0,0.1,0.1,0.2,0.2,0.3c0.1,0.3,0.3,0.5,0.5,0.8c0.1,0.1,0.1,0.3,0.3,0.4c-0.1,0.3-0.4,0.4-0.6,0.5c-0.6,0.4-1.1,0.8-1.7,1.2c-0.2,0.1-0.2,0.2-0.2,0.4c0.1,0.3,0.2,0.7,0.3,1c0,0.1,0,0.2,0.1,0.4c0,0.4,0.1,0.7,0.3,1.1c0.1,0.3,0,0.4-0.3,0.5c-0.1,0-0.2,0.1-0.3,0.1c-0.7,0.2-1.4,0.4-2.1,0.6c-0.2,0-0.3,0.1-0.3,0.3c0,0.5-0.1,1.1-0.1,1.6c0,0.2,0,0.4,0,0.5c0,0.1-0.1,0.1-0.1,0.2c0.1,0.5-0.2,0.6-0.6,0.5c-0.1,0-0.3,0-0.4,0c-0.4,0-0.8-0.1-1.2-0.1C35.3,32,35,32,34.8,32c-0.2,0-0.3,0-0.3,0.2c-0.2,0.6-0.5,1.1-0.8,1.7c-0.1,0.2-0.2,0.4-0.3,0.6c-0.1,0.3-0.3,0.4-0.6,0.3c-0.1-0.1-0.2-0.1-0.3-0.1c-0.3-0.1-0.6-0.3-0.9-0.4c-0.1-0.1-0.2-0.1-0.4-0.2c-0.3-0.1-0.6-0.3-0.9-0.4c-0.2-0.2-0.3,0.1-0.3,0.1c-0.6,0.6-1.2,1.2-1.8,1.7c-0.1,0.1-0.2,0.3-0.4,0.2c-0.2-0.2-0.4-0.5-0.7-0.7c-0.1-0.1-0.1-0.1-0.2-0.2c-0.2-0.3-0.5-0.5-0.7-0.7c0-0.1-0.1-0.1-0.2-0.2c-0.2-0.4-0.5-0.5-0.9-0.2c-0.2,0.1-0.4,0.2-0.7,0.3c-0.3,0.1-0.5,0.2-0.8,0.4c-0.2,0.1-0.3,0.1-0.5,0.2c-0.3,0.2-0.5,0.2-0.7-0.2c0-0.1-0.1-0.3-0.2-0.4c-0.1-0.3-0.2-0.5-0.4-0.8c0-0.1-0.1-0.3-0.2-0.4c-0.1-0.3-0.2-0.6-0.4-0.9C21.4,31.9,21.2,32,21,32z M33.6,12.9c-0.1-0.1-0.2-0.2-0.3-0.2c-0.3-0.2-0.6-0.4-0.9-0.5c-0.1-0.1-0.2-0.1-0.3-0.1c-0.3-0.2-0.6-0.3-0.9-0.4c-0.1-0.1-0.3-0.1-0.4-0.2c-0.3-0.1-0.6-0.2-1-0.2c-0.1,0-0.3,0-0.4-0.1c-0.4-0.1-0.8-0.1-1.2-0.1c-0.1,0-0.3,0-0.4,0c-0.5,0-1,0-1.5,0.2c-0.2,0-0.4,0.1-0.6,0.1c-0.7,0.2-1.5,0.4-2.1,0.8c-1.8,0.9-3.1,2.3-4,4.1c-0.4,0.7-0.7,1.4-0.8,2.1c-0.1,0.2-0.1,0.4-0.1,0.6c-0.1,0.5-0.2,1-0.2,1.5c0,0.1,0,0.3,0,0.4c0,0.4,0,0.8,0.1,1.2c0,0.1,0,0.3,0.1,0.4c0.1,0.3,0.2,0.7,0.3,1c0,0.1,0,0.3,0.1,0.4c0.1,0.4,0.2,0.7,0.4,1c0,0.1,0,0.2,0.1,0.2c0.1,0.3,0.3,0.5,0.5,0.8c0.1,0.1,0.1,0.3,0.2,0.4c0.2,0.3,0.4,0.5,0.6,0.7c0,0.1,0.1,0.2,0.2,0.2c0.2,0.2,0.4,0.4,0.6,0.6c0.1,0.1,0.1,0.2,0.2,0.2c0.2,0.3,0.5,0.5,0.8,0.6c0.1,0.1,0.2,0.1,0.3,0.2c0.2,0.2,0.5,0.3,0.8,0.4c0.1,0.1,0.3,0.2,0.4,0.2c0.3,0.2,0.6,0.3,0.9,0.3c0.1,0.1,0.2,0.1,0.3,0.1c0.4,0.1,0.8,0.2,1.2,0.2c0.1,0.1,0.2,0.1,0.4,0.1c0.4,0,0.9,0.1,1.3,0c0.1,0,0.3,0,0.4,0c0.5,0,1.1-0.1,1.6-0.3c0.2,0,0.4-0.1,0.6-0.2c1.1-0.3,2-0.8,2.9-1.5c1.5-1.2,2.7-2.7,3.2-4.6c0.1-0.2,0.2-0.4,0.2-0.6c0.2-0.5,0.3-1,0.3-1.6c0-0.2,0.1-0.4,0-0.5c0.1-0.4,0-0.8,0-1.2c0-0.2,0-0.3-0.1-0.4c0-0.4-0.1-0.7-0.2-1.1c0-0.1-0.1-0.2-0.1-0.4c-0.1-0.3-0.2-0.7-0.4-1c0-0.1,0-0.2-0.1-0.2c-0.1-0.3-0.3-0.6-0.5-0.9c-0.1-0.1-0.1-0.3-0.2-0.4c-0.1-0.3-0.3-0.5-0.5-0.7c0-0.1-0.1-0.2-0.2-0.2c-0.2-0.2-0.4-0.4-0.6-0.6c-0.1-0.1-0.2-0.3-0.4-0.3C34.1,13.2,33.9,13,33.6,12.9z"/>
@@ -602,12 +599,12 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/polz_2.webp" alt="">-->
                                                                                 <svg version="1.1"class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
                                                                                     <style type="text/css">
-                                                                                        .st09{fill:#65BD5C;}
+                                                                                        .st09{fill:#44dd61;}
                                                                                     </style>
                                                                                     <g>
                                                                                         <path class="st09" d="M9.8,30.1c-0.6,0.7-0.9,1.3-1.4,1.7c-0.8,0.8-1.9,0.8-2.6,0c-0.7-0.9-0.8-1.9,0-2.8c1.5-1.8,3-3.5,4.6-5.2c0.8-0.8,1.7-0.8,2.5,0.1c1.5,1.7,3,3.3,4.5,5.1c0.7,0.9,0.7,1.9,0,2.8c-0.6,0.8-1.7,0.8-2.6,0.1c-0.3-0.3-0.5-0.8-1-0.6c1,7.6,6.9,14.1,13.8,15.2c9.1,1.4,16.9-4.5,19.1-14.4C49,21.4,42,10.3,32.2,9.2C31.6,9.2,31,9.1,30.3,9c-1.2-0.1-1.9-0.9-1.9-2.1c0-1.2,0.8-2,2-2c4.7,0,8.9,1.6,12.5,4.9c6.6,6.1,9.2,14,7.1,23.4c-2.1,9.6-7.9,15.3-16.5,17.1c-10.9,2.3-21.7-6.5-23.4-18.8C10,31.2,9.9,30.8,9.8,30.1z"/>
@@ -631,12 +628,12 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/polz_3.webp" alt="">-->
                                                                                 <svg version="1.1" class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
                                                                                     <style type="text/css">
-                                                                                        .st010{fill:#44DD61;}
+                                                                                        .st010{fill:#44dd61;}
                                                                                     </style>
                                                                                     <g>
                                                                                         <path class="st010" d="M28.8,5.1c0.2,0,0.4,0,0.5,0c0.5,0.4,1.2,0.2,1.8,0.3c11.5,1.6,21.3,12.1,19.4,25.9c-1.7,12.6-13.1,21.1-25.6,19.4C14.2,49.3,5.7,40.1,5.3,29.1C4.8,18.1,12.2,8.3,22.9,5.8c1.1-0.3,2.3-0.3,3.4-0.7c0.2,0,0.5,0,0.7,0C27.6,5.3,28.2,5.3,28.8,5.1z M31.6,33.2c0-2.5,0-5,0-7.5c0-0.6-0.1-0.8-0.7-0.8c-1.8,0-3.7,0-5.5,0c-0.5,0-0.7,0.1-0.7,0.7c0,5.1,0,10.2,0,15.3c0,0.6,0.2,0.7,0.7,0.7c1.8,0,3.7,0,5.5,0c0.6,0,0.7-0.2,0.7-0.8C31.6,38.2,31.6,35.7,31.6,33.2z M31.9,17.7c0-2.2-1.5-3.8-3.8-3.8c-2,0-3.7,1.6-3.7,3.7c0,2.2,1.6,3.8,3.7,3.8C30.2,21.4,31.9,19.8,31.9,17.7z"/>
@@ -655,12 +652,12 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/polz_4.webp" alt="">-->
                                                                                 <svg version="1.1"class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
                                                                                     <style type="text/css">
-                                                                                        .st011{fill:#65BD5C;}
+                                                                                        .st011{fill:#44dd61;}
                                                                                     </style>
                                                                                     <g>
                                                                                         <path class="st011" d="M27,24.7c-2.8,0.5-5,2-6.5,4.4c-2-2.5-4.5-3.8-7.6-3.7c-3.1,0.1-5.6,1.5-7.4,4C5.6,19.6,13.9,8.6,27,7.9c0-0.5,0-0.9,0-1.4c0-0.7,0.4-1,1-1c0.6,0,1,0.4,1,1c0,0.5,0,0.9,0,1.4c7.7,0.6,13.7,4,18,10.4c2.5,3.8,3.5,8,3.6,10.7c-1.8-2.6-4.2-4.1-7.3-4.3c-3.1-0.2-5.6,1-7.7,3.5c-1.7-2-3.9-3.2-6.5-3.5c0,0.2,0,0.3,0,0.5c0,6.2,0,12.4,0,18.6c0,1.7-0.3,3.2-1.3,4.5c-1.5,1.9-3.5,2.7-5.9,2.2c-2.3-0.5-3.9-1.9-4.7-4.2c-0.2-0.6-0.3-1.3-0.3-2c0-0.5,0.4-0.9,0.9-1c0.5-0.1,1,0.2,1.1,0.7c0.1,0.3,0.1,0.6,0.1,0.9c0.3,2.2,2.3,3.7,4.5,3.5c2-0.2,3.7-2,3.7-4.1c0-6.4,0-12.7,0-19.1C27,25.1,27,25,27,24.7z"/>
@@ -679,12 +676,12 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
                                                                                 <!--<img src="/bitrix/templates/Becomingbetter3.ru/images/polz_5.webp" alt="">-->
                                                                                 <svg version="1.1"class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
                                                                                     <style type="text/css">
-                                                                                        .st012{fill:#65BD5C;}
+                                                                                        .st012{fill:#44dd61;}
                                                                                     </style>
                                                                                     <g>
                                                                                         <path class="st012" d="M5.4,48.1c0.2-0.9,0.4-1.7,0.7-2.6c0.1-0.3,0.3-0.6,0.5-0.8c5.3-5.6,10.7-11.1,16.1-16.7c0.1-0.1,0.3-0.2,0.5-0.3c-0.7-0.8-1.2-1.4-1.7-2c-0.3-0.4-0.5-0.7-0.3-1.2c0.2-0.5,0.6-0.8,1.1-0.9c0.9-0.1,1.8-0.2,2.8-0.3c0.1,0,0.3-0.1,0.4-0.1c-0.2-1-0.5-2.1-0.6-3.1c-1-6.7,2.9-12.8,9.2-14.3c4.5-1.1,8.5,0.2,12,3.4c2.6,2.3,4.1,5.3,4.6,8.8c0.9,6.4-3,13.1-9.8,14.4c-2.5,0.5-5,0.2-7.3-0.8c-0.1,0-0.1,0-0.3-0.1c-0.2,0.8-0.4,1.6-0.6,2.4c-0.1,0.5-0.2,1-0.4,1.4c-0.2,0.7-0.7,0.9-1.3,0.5c-0.2-0.1-0.4-0.4-0.6-0.6c-0.8-0.7-1.5-1.5-2.3-2.2c-0.7,0.8-1.5,1.7-2.3,2.6c-0.1,0.1-0.1,0.3-0.1,0.5c0,1,0,2.1,0,3.2c-1.6,0-3.1,0-4.7,0c0,0.3,0,0.5,0,0.7c0,1.1,0,2.2-0.1,3.3c0,0.1,0,0.2,0,0.3c-0.3,0.4-0.7,0.7-1,1.1c-0.3,0.4-0.7,0.6-1.2,0.5c-1.1,0-2.1,0-3.2,0c-0.3,0-0.4,0.1-0.4,0.4c0,0.8-0.1,1.6-0.2,2.3c0,0.1-0.1,0.3-0.2,0.4C14,49,13.4,49.5,12.9,50c-0.1,0.1-0.3,0.2-0.4,0.2c-1.3,0-2.5,0.1-3.8,0.1c-0.1,0-0.1,0-0.2,0c0.1-0.2,0.2-0.3,0.3-0.4c6.3-6.5,12.6-12.9,18.9-19.4c0.3-0.4,0.6-0.8,0.9-1.2c0.4-0.8,0.8-1.7,1.2-2.6c-0.1,0.1-0.3,0.2-0.4,0.4C22,34.7,14.5,42.4,7,50.1c-0.1,0.1-0.3,0.3-0.5,0.4c-0.7,0.2-0.8,0.1-1-0.6c-0.1-0.2-0.1-0.4-0.2-0.6C5.4,48.9,5.4,48.5,5.4,48.1z M41.3,17.6c1.6,0,2.9-1.3,2.9-3c0-1.6-1.3-3.1-2.8-3.1c-1.7,0-3,1.2-3.1,3C38.3,16.2,39.6,17.5,41.3,17.6z"/>
@@ -703,12 +700,12 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
-                                                                               <!-- <img src="/bitrix/templates/Becomingbetter3.ru/images/polz_6.webp" alt="">-->
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
+                                                                                <!-- <img src="/bitrix/templates/Becomingbetter3.ru/images/polz_6.webp" alt="">-->
                                                                                 <svg version="1.1"class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
                                                                                     <style type="text/css">
-                                                                                        .st013{fill:#65BD5C;}
+                                                                                        .st013{fill:#44dd61;}
                                                                                     </style>
                                                                                     <g>
                                                                                         <path class="st013" d="M16.9,22.7c0.9-0.5,1.8-1.1,2.8-1.6c2.9-1.6,5.8-3.2,8.7-4.8c0.5-0.3,1-0.6,1.1-1.5c0.1-1.1-0.5-2.1-1.2-1.9c-1.2,0.5-2.3,1-3.4,1.6c-3,1.7-6,3.4-9,5.2c-1.3,0.8-2.5,1.7-3.2,3.5c-0.6,1.5-0.9,3.2-1.1,4.9c0,0.3-0.1,0.6-0.1,0.8c0,0.4,0.1,0.8,0.3,1c1,1.6,1.1,3.2,0.1,4.8c-0.2,0.3-0.2,0.8-0.2,1.1c0.1,2.2,0.3,4.3,0.3,6.5c0,2.3-0.3,4.5-1.4,6.3c-0.2,0.3-0.4,0.6-0.6,0.9c-0.7,0.9-1.5,1.1-2.4,0.5c-0.7-0.5-1.4-1-2-1.5c-0.3-0.3-0.4-0.6-0.1-1C6.2,46.3,7,45,7.7,43.5c1.1-2.3,1.5-4.9,1.8-7.6c0-0.2-0.1-0.5-0.3-0.7c-0.9-1-1.3-2.4-0.9-3.8c0.1-0.4,0.2-0.8,0.5-1c0.6-0.7,0.8-1.6,0.9-2.6c0.2-2.4,0.7-4.6,1.6-6.5c0.3-0.7,0.3-0.8-0.2-1.1c-1.3-0.7-2.7-1.3-4-2c-0.2-0.1-0.3-0.2-0.5-0.3c-0.3-0.2-0.6-0.5-0.5-1C6,16.6,6.2,16.2,6.5,16c0.8-0.5,1.6-0.9,2.4-1.3c6.2-3,12.5-6,18.7-9c0.6-0.3,1.1-0.2,1.7,0.1c4.1,2,8.2,3.9,12.3,5.9c2.7,1.3,5.5,2.7,8.2,4.1c0.2,0.1,0.5,0.2,0.7,0.4c0.2,0.2,0.5,0.6,0.4,0.8c0,0.4-0.3,0.8-0.5,1c-0.2,0.2-0.5,0.3-0.7,0.4c-6.9,3.4-13.9,6.7-20.8,10.1c-0.2,0.1-0.5,0.1-0.7,0c-3.6-1.7-7.1-3.5-10.7-5.2c-0.2-0.1-0.3-0.2-0.4-0.3C16.9,22.8,16.9,22.8,16.9,22.7z"/>
@@ -728,12 +725,12 @@
                                                                 <div class="rez_aorlov_img aio-icon-default">
                                                                     <div class="ult-just-icon-wrapper ">
                                                                         <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;">
-                                                                               <!-- <img src="/bitrix/templates/Becomingbetter3.ru/images/polz_7.webp" alt="">-->
+                                                                            <div class="aio-icon none " style="height:56px; width:56px;display:inline-block;padding: 10px;" role="img">
+                                                                                <!-- <img src="/bitrix/templates/Becomingbetter3.ru/images/polz_7.webp" alt="">-->
                                                                                 <svg version="1.1"class="seven-problems__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                                      viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
                                                                                     <style type="text/css">
-                                                                                        .st014{fill:#65BD5C;}
+                                                                                        .st014{fill:#44dd61;}
                                                                                     </style>
                                                                                     <g>
                                                                                         <path class="st014" d="M5.4,29.3c0-1.2,0-2.4,0-3.6c0,0,0.1-0.1,0.1-0.1c0.2-2,0.6-4,1.3-5.9C6.9,19.6,7,19.4,7,19.1c0.4-0.8,0.8-1.6,1.2-2.5c0.2-0.3,0.4-0.7,0.6-1c0,0,0-0.1,0.1-0.1c0-0.1,0.1-0.1,0.1-0.2c0.8-1.1,1.5-2.1,2.4-3.1c1.3-1.4,2.9-2.7,4.5-3.8c0.1,0,0.1-0.1,0.2-0.1c0,0,0.1,0,0.1-0.1c0.4-0.2,0.7-0.4,1.1-0.6c0.8-0.4,1.5-0.7,2.3-1.1c0.1,0,0.1,0,0.2-0.1c0,0,0,0,0,0c0.2-0.1,0.4-0.1,0.6-0.2c1.5-0.5,3.1-0.9,4.8-1.2c0.5-0.1,1,0,1.5-0.2c1,0,2,0,3,0c0.5,0.2,1,0.1,1.5,0.2c1.1,0.1,2.2,0.4,3.3,0.7C34.5,5.9,34.6,6,34.8,6c0.3,0.1,0.6,0.2,0.9,0.3c0.1,0.1,0.2,0.1,0.4,0.2c0.3,0.1,0.5,0.2,0.8,0.3C37,6.9,37.2,6.9,37.3,7c0.3,0.1,0.5,0.2,0.8,0.4c0.1,0.1,0.2,0.1,0.3,0.2C38.7,7.7,39,7.8,39.3,8c0.1,0.1,0.2,0.1,0.3,0.2c0.3,0.2,0.6,0.4,0.9,0.5c0,0,0.1,0.1,0.1,0.1C40.8,9,41,9.1,41.3,9.3c0.1,0.1,0.2,0.2,0.4,0.3c0.2,0.2,0.5,0.4,0.7,0.5c0.1,0.1,0.2,0.2,0.3,0.2c0.2,0.2,0.4,0.4,0.6,0.5c0.1,0.1,0.2,0.2,0.4,0.3c0.2,0.2,0.4,0.4,0.5,0.5c0.1,0.1,0.2,0.2,0.3,0.4c0.2,0.2,0.4,0.4,0.6,0.7c0.1,0.1,0.1,0.2,0.2,0.2c0.2,0.2,0.4,0.5,0.6,0.7c0.1,0.1,0.1,0.2,0.2,0.2c0.2,0.2,0.3,0.5,0.5,0.7c0.1,0.1,0.1,0.2,0.2,0.3c0.2,0.3,0.3,0.5,0.5,0.8c0.1,0.1,0.2,0.2,0.2,0.4c0.1,0.3,0.3,0.5,0.4,0.8c0,0.1,0.1,0.2,0.2,0.4c0.1,0.3,0.2,0.5,0.4,0.8c0,0.1,0.1,0.2,0.1,0.3c0.1,0.3,0.3,0.6,0.4,1c0.1,0.1,0.1,0.2,0.2,0.4c0.1,0.3,0.2,0.7,0.3,1c0,0.1,0,0.2,0.1,0.3c0,0.2,0.1,0.4,0.1,0.6c0.5,1.9,0.8,3.7,0.8,5.7c0.1,2.6-0.3,5.1-1.1,7.5c-0.1,0.2-0.2,0.4-0.2,0.7l0,0c-0.1,0-0.1,0.1-0.1,0.2c-0.3,0.7-0.6,1.4-0.9,2.1c-0.2,0.3-0.3,0.6-0.5,1l0,0c0,0.1-0.1,0.1-0.1,0.2c-0.1,0.2-0.2,0.3-0.3,0.5c-1.2,2-2.7,3.7-4.4,5.3c-1.2,1-2.4,1.9-3.7,2.7c-0.1,0-0.1,0.1-0.2,0.1l0,0c-0.3,0.2-0.6,0.3-1,0.5c-0.8,0.3-1.5,0.7-2.3,1c-0.2,0-0.5,0.1-0.7,0.2c-0.1,0-0.2,0.1-0.3,0.1c-2.1,0.6-4.2,1-6.3,1c-2.4,0-4.7-0.3-7-1C21.3,49,21.2,49,21,49c-0.3-0.1-0.7-0.3-1.1-0.4c-0.1-0.1-0.2-0.1-0.4-0.2c-0.2-0.1-0.5-0.2-0.7-0.3c-0.1-0.1-0.3-0.1-0.4-0.2c-0.3-0.1-0.6-0.3-0.9-0.4c-0.1,0-0.1-0.1-0.2-0.1c-0.3-0.2-0.6-0.4-0.9-0.5c-0.1-0.1-0.2-0.1-0.3-0.2c-0.3-0.2-0.5-0.3-0.8-0.5c-0.1-0.1-0.2-0.1-0.3-0.2c-0.2-0.2-0.5-0.3-0.7-0.5c-0.1-0.1-0.2-0.2-0.3-0.3c-0.2-0.2-0.5-0.4-0.7-0.6c-0.1-0.1-0.2-0.2-0.3-0.2c-0.2-0.2-0.4-0.4-0.6-0.5c-0.1-0.1-0.2-0.2-0.3-0.3c-0.2-0.2-0.4-0.4-0.6-0.6c-0.1-0.1-0.1-0.1-0.2-0.2c-0.2-0.3-0.5-0.5-0.7-0.8c-0.1-0.1-0.1-0.2-0.2-0.2c-0.2-0.3-0.4-0.5-0.6-0.8c0,0-0.1-0.1-0.1-0.1c-0.2-0.3-0.4-0.5-0.5-0.8c-0.1-0.1-0.2-0.2-0.2-0.4c-0.2-0.3-0.3-0.5-0.5-0.8c0-0.1-0.1-0.1-0.1-0.2C8.3,38.5,8.1,38.3,8,38c0-0.1-0.1-0.2-0.2-0.3c-0.1-0.3-0.3-0.7-0.5-1c0-0.1-0.1-0.3-0.2-0.4c-0.1-0.3-0.2-0.6-0.3-0.9c0-0.1,0-0.2-0.1-0.3c0-0.1,0-0.2-0.1-0.3c-0.5-1.4-0.8-2.8-1-4.3C5.6,30.3,5.6,29.8,5.4,29.3z M39.2,41.9L39.2,41.9c0.1,0,0.1,0,0.2-0.1c0,0,0.1,0,0.1-0.1c1.1-0.8,2-1.8,2.8-2.8c0,0,0-0.1,0.1-0.1c0.1,0,0.1-0.1,0.1-0.2l0,0c0,0,0.1-0.1,0.1-0.1c0.3-0.3,0.6-0.7,0.8-1.1c0,0,0-0.1,0.1-0.1c0-0.1,0.1-0.1,0.1-0.2c0.6-0.8,1-1.6,1.3-2.5l0,0c0.1,0,0.1-0.1,0.1-0.2c0.1-0.2,0.2-0.4,0.2-0.6c0.3-0.6,0.4-1.2,0.6-1.9c0-0.2,0.1-0.4,0.1-0.6c0.2-0.5,0.3-1.1,0.3-1.7c0.1-0.2,0.1-0.3,0.1-0.5c0.1-0.4,0.1-0.9,0.1-1.3c0-0.2,0-0.4,0-0.5c0-0.4,0-0.8-0.1-1.2c0-0.1,0-0.3,0-0.4c0-0.4,0-0.8-0.2-1.1c0-0.1,0-0.2-0.1-0.4c0-0.4-0.1-0.7-0.2-1.1c0-0.1-0.1-0.2-0.1-0.4c-0.1-0.4-0.2-0.7-0.3-1c0-0.1-0.1-0.3-0.1-0.4c-0.1-0.3-0.2-0.6-0.3-0.8c0-0.1-0.1-0.2-0.1-0.3c-0.1-0.3-0.2-0.7-0.5-1c0-0.1-0.1-0.3-0.2-0.4c-0.1-0.3-0.3-0.5-0.4-0.8c0-0.1-0.1-0.2-0.2-0.3c-0.1-0.3-0.3-0.6-0.5-0.8c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1-0.2-0.3-0.4-0.5-0.6c0-0.1-0.1-0.2-0.2-0.3c-0.2-0.3-0.4-0.5-0.6-0.7c-0.1-0.1-0.2-0.2-0.3-0.3c-0.2-0.2-0.4-0.4-0.6-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.2-0.2-0.4-0.4-0.6-0.5c-0.1-0.1-0.2-0.2-0.4-0.3c-0.2-0.2-0.4-0.4-0.7-0.5c-0.1-0.1-0.1-0.2-0.3-0.2c-0.2-0.2-0.5-0.4-0.8-0.5c-0.1-0.1-0.2-0.2-0.4-0.2c-0.2-0.1-0.4-0.3-0.7-0.4c-0.1-0.1-0.3-0.2-0.4-0.2c-0.3-0.1-0.6-0.3-0.9-0.4c-0.1-0.1-0.2-0.1-0.4-0.2c-0.3-0.1-0.6-0.3-1-0.3c-0.1,0-0.2-0.1-0.3-0.1c-0.3-0.1-0.7-0.2-1.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1c-0.4-0.2-0.8-0.2-1.1-0.2c-0.1,0-0.2,0-0.3-0.1c-0.4-0.1-0.8-0.2-1.2-0.1c-0.1,0-0.3,0-0.4,0c-0.4-0.1-0.9-0.1-1.3,0c-0.2,0-0.3,0-0.5,0c-0.5,0-0.9,0-1.4,0.1c-0.2,0-0.4,0-0.5,0c-0.5,0.1-1.1,0.1-1.6,0.3c-0.2,0-0.4,0.1-0.6,0.2c-0.7,0.1-1.4,0.4-2.1,0.7c-0.2,0-0.4,0.1-0.6,0.3c-0.1,0-0.1,0-0.1,0.1l0,0c-0.1,0-0.3,0.1-0.4,0.1c-2.1,1-4,2.4-5.6,4.2c-1.2,1.3-2.2,2.8-3,4.5l0,0c0,0.1-0.1,0.1-0.1,0.2c-0.1,0.2-0.2,0.4-0.3,0.6c0,0,0,0,0,0c0,0,0,0.1-0.1,0.1c-0.3,0.6-0.5,1.3-0.7,1.9c-0.1,0.2-0.2,0.4-0.1,0.6c-0.2,0.5-0.2,1.1-0.3,1.6c0,0.1,0,0.3,0,0.4c-0.1,0.5-0.1,1-0.1,1.5c0,0.1,0,0.3,0,0.4c0,0.4,0,0.9,0,1.3c0,0.1,0,0.3,0,0.4c0,0.4,0.1,0.8,0.1,1.1c0,0.1,0.1,0.3,0.1,0.4c0.1,0.3,0.1,0.6,0.2,1c0,0.2,0.1,0.3,0.1,0.5c0.1,0.4,0.2,0.7,0.3,1c0,0.2,0.1,0.3,0.2,0.5c0,0.3,0.2,0.6,0.3,0.8c0,0.1,0.1,0.2,0.1,0.3c0.1,0.3,0.2,0.6,0.4,0.9c0,0.1,0.1,0.2,0.1,0.3c0.1,0.3,0.3,0.6,0.5,0.9c0,0.1,0.1,0.2,0.2,0.3c0.1,0.3,0.4,0.6,0.6,0.9c0,0,0.1,0.1,0.1,0.1c0.1,0.3,0.3,0.5,0.6,0.8c0.1,0.1,0.2,0.2,0.2,0.3c0.2,0.3,0.4,0.5,0.6,0.7c0.1,0.1,0.2,0.2,0.3,0.3c0.2,0.2,0.3,0.4,0.5,0.5c0.1,0.1,0.2,0.2,0.4,0.3c0.2,0.2,0.4,0.4,0.6,0.5c0.1,0.1,0.1,0.2,0.2,0.2c0.2,0.2,0.5,0.5,0.8,0.6c0.1,0.1,0.2,0.1,0.3,0.2c0.2,0.2,0.5,0.4,0.8,0.5c0.1,0.1,0.2,0.1,0.3,0.2c0.2,0.2,0.5,0.3,0.8,0.4c0.1,0.1,0.2,0.1,0.4,0.2c0.3,0.2,0.6,0.3,0.9,0.4c0.1,0,0.2,0.1,0.3,0.1c0.3,0.1,0.7,0.3,1,0.4c0.1,0.1,0.2,0.1,0.3,0.1c0.3,0.2,0.7,0.3,1.1,0.3c0.1,0,0.1,0,0.2,0.1c0.4,0.1,0.8,0.2,1.2,0.3c0.1,0.1,0.2,0.1,0.4,0.1c0.4,0.1,0.8,0.2,1.1,0.2c0.1,0,0.3,0,0.4,0c0.4,0.1,0.8,0.1,1.2,0.1c0.1,0,0.3,0,0.4,0c0.5,0,0.9,0,1.4-0.1c0.2,0,0.4,0,0.5,0c0.6-0.1,1.1-0.1,1.7-0.3c0.2,0,0.3,0,0.4-0.1c0.7-0.1,1.4-0.3,2-0.6c0.2,0,0.4-0.1,0.6-0.2c1-0.4,2-0.9,2.9-1.5c0.5-0.2,0.9-0.5,1.2-0.9C39.2,42,39.2,42,39.2,41.9z"/>
@@ -814,7 +811,7 @@
                             "RANDOM" => "N",
                             "RANDOM_TRANSITION" => "N",
                             "RESPONSIVE" => "Y",
-                            "REWIND_SPEED" => "1000",
+                            "REWIND_SPEED" => "0",
                             "SCROLL_COUNT" => "1",
                             "SECTION_ID" => "0",
                             "SHOW_DESCRIPTION_BLOCK" => "N",
